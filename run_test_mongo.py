@@ -20,7 +20,9 @@ def get_test_json( test ):
             "MEMORY": int(arrtest[7]),
             "AMOUNT_TEST": int(arrtest[8]),
             "SIZE_REST": int(arrtest[9]),
-            "UPSERT": UPSERT
+            "UPSERT": UPSERT,
+            "FUNCTION":arrtest[1]+"_"+arrtest[3],
+            "IDFUNCTION": arrtest[2]+"_"+arrtest[4]
             }
 
     return jdata
@@ -37,8 +39,9 @@ def insert_base(jtest,conn):
 
     ACUMULATE = 1
     if (jtest["MEMORY"]/MB16 < 1):
-        print (jtest["MEMORY"]/MB16)
         ACUMULATE = 1000
+        #print (jtest["MEMORY"]/MB16)
+
 
     for i in range(jtest["AMOUNT_TEST"]):
         docs = []
@@ -61,11 +64,10 @@ def INSERT_NEXIST_COLLECTION(jtest,conn):
 
     for i in range(jtest["AMOUNT_TEST"]):
         tini = time.time_ns()
-        col = db[colname]
-        col.insert_many(docs)
+        db[colname].insert_many(docs)
         tend = time.time_ns() - tini
         print("{'db':'%s','col':'%s','idtest':%d,'time_ns':%d}" % (dbname,colname,i,tend))
-        col.drop()
+        db[colname].drop()
 
     return
 
@@ -82,8 +84,8 @@ def INSERT_NEXIST_DOCUMENT(jtest,conn):
     _id = 1
 
     ACUMULATE = 1
-    if (jtest["MEMORY"]/MB16 < 1):
-        ACUMULATE = 1000
+    #if (jtest["MEMORY"]/MB16 < 1):
+    #    ACUMULATE = 1000
 
     for i in range(jtest["AMOUNT_TEST"]):
         docs = []
@@ -252,17 +254,18 @@ def DELETE_ALL_NFOUND_SIDX_SSAT(jtest,conn):
     delete(jtest,conn,"cmp2","$lt",-1)
 
 def DELETE_ALL_FOUND_SIDX_SSAT(jtest,conn):
-    delete(jtest,conn,"cmp2","$gt",1)
+    delete(jtest,conn,"cmp2","$gt",jtest["AMOUNT_TEST"]-10)
 
 def DELETE_ALL_NFOUND_CIDX_SSAT(jtest,conn):
     delete(jtest,conn,"_id","$lt",-1)
 
 def DELETE_ALL_FOUND_CIDX_SSAT(jtest,conn):
-    delete(jtest,conn,"_id","$gt",1)
+    delete(jtest,conn,"_id","$gt",jtest["AMOUNT_TEST"]-10)
 
-print('Argument list: %s' % str(sys.argv))
+#print('Argument list: %s' % str(sys.argv))
 test = sys.argv[1]
 jtest = get_test_json( test )
 conn = pymongo.MongoClient("mongodb://localhost:27017/")
 
-eval(jtest["TYPE"]+"_"+jtest["ACTION"])(jtest,conn)
+print("%s" % str(jtest))
+eval(jtest["FUNCTION"])(jtest,conn)
