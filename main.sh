@@ -5,7 +5,10 @@ data_python="data_python/data.dat"
 
 python generate_test_list.py config.json > test00.dat
 cat test00.dat | grep -v CSAT > test01.dat
+#cat test01.dat | grep DELETE > test00.dat
+
 rm test00.dat
+#rm test01.dat
 
 sudo killall mongod
 sleep 4

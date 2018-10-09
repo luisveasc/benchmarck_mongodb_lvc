@@ -27,6 +27,17 @@ def get_test_json( test ):
 
     return jdata
 
+def get_work_json(jtest,db,col,idtest,time_ns,rows,rows_col):
+    jdata=jtest
+    jdata["STATUS"]="OK"
+    jdata["db"]=db
+    jdata["col"]=col
+    jdata["idtest"]=idtest
+    jdata["time_ns"]=time_ns
+    jdata["rows"]=rows
+    jdata["rows_col"]=rows_col
+
+    return jdata
 
 def insert_base(jtest,conn):
     dbname = "DB1"
@@ -49,7 +60,7 @@ def insert_base(jtest,conn):
             docs.append( {"_id":_id,"cmp1":_id,"cmp2":_id,"data":data} )
             _id=_id+1
         col.insert_many(docs)
-        print("%d de %d => _id:%d" %(i,jtest["AMOUNT_TEST"],_id))
+        #print("%d de %d => _id:%d" %(i,jtest["AMOUNT_TEST"],_id))
 
     return _id
 
@@ -66,7 +77,8 @@ def INSERT_NEXIST_COLLECTION(jtest,conn):
         tini = time.time_ns()
         db[colname].insert_many(docs)
         tend = time.time_ns() - tini
-        print("{'db':'%s','col':'%s','idtest':%d,'time_ns':%d}" % (dbname,colname,i,tend))
+
+        print("%s" % (str( get_work_json(jtest,dbname,colname,i,tend,1,1) )))
         db[colname].drop()
 
     return
@@ -95,7 +107,8 @@ def INSERT_NEXIST_DOCUMENT(jtest,conn):
         tini = time.time_ns()
         col.insert_many(docs)
         tend = time.time_ns() - tini
-        print("{'db':'%s','col':'%s','idtest':%d,'time_ns':%d, 'acum':%d }" % (dbname,colname,i,tend,ACUMULATE))
+
+        print("%s" % (str( get_work_json(jtest,dbname,colname,i,tend,ACUMULATE,_id) )))
 
     return
 
@@ -120,7 +133,9 @@ def INSERT_ERROR_PK(jtest,conn):
         except:
             X=0#print "error pk"
         tend = time.time_ns() - tini
-        print("{'db':'%s','col':'%s','idtest':%d,'time_ns':%d }" % (dbname,colname,i,tend))
+        print("%s" % (str( get_work_json(jtest,dbname,colname,i,tend,1,1) )))
+
+    return
 
 
 def find(jtest,conn,field,operation,valueToSearch):
@@ -136,7 +151,7 @@ def find(jtest,conn,field,operation,valueToSearch):
         tini = time.time_ns()
         rows = col.find({field: {operation: valueToSearch}}).count()
         tend = time.time_ns() - tini
-        print("{'db':'%s','col':'%s','idtest':%d,'time_ns':%d, 'rows':%d}" % (dbname,colname,i,tend,rows))
+        print("%s" % (str( get_work_json(jtest,dbname,colname,i,tend,rows,_id) )))
 
     return
 
@@ -173,14 +188,20 @@ def update(jtest,conn,field,operation,valueToSearch):
     db = conn[dbname]
     col = db[colname]
     data = "a"*(jtest["BYTESIZE"]-jtest["SIZE_REST"])
+    MB16 = 16000000
+    ACUMULATE = 1
+    if (jtest["MEMORY"]/MB16 < 1):
+        ACUMULATE = 1000
 
     _id = insert_base(jtest,conn)
 
+    VALUE=valueToSearch*ACUMULATE
+
     for i in range(jtest["AMOUNT_TEST"]):
         tini = time.time_ns()
-        rows = col.update({field:{operation:valueToSearch}},{"$set":{"data":data}},jtest["UPSERT"])
+        rows = col.update({field:{operation:VALUE}},{"$set":{"data":data}},jtest["UPSERT"])
         tend = time.time_ns() - tini
-        print("{'db':'%s','col':'%s','idtest':%d,'time_ns':%d, 'rows':%s}" % (dbname,colname,i,tend,str(rows)) )
+        print("%s" % (str( get_work_json(jtest,dbname,colname,i,tend,rows.modified_count,_id) )))
 
     return
 
@@ -200,13 +221,13 @@ def UPDATE_ALL_NFOUND_SIDX_SSAT(jtest,conn):
     update(jtest,conn,"cmp2","$lt",-1)
 
 def UPDATE_ALL_FOUND_SIDX_SSAT(jtest,conn):
-    update(jtest,conn,"cmp2","$gt",1)
+    update(jtest,conn,"cmp2","$gt",jtest["AMOUNT_TEST"]-4)
 
 def UPDATE_ALL_NFOUND_CIDX_SSAT(jtest,conn):
     update(jtest,conn,"_id","$lt",-1)
 
 def UPDATE_ALL_FOUND_CIDX_SSAT(jtest,conn):
-    update(jtest,conn,"_id","$gt",1)
+    update(jtest,conn,"_id","$gt",jtest["AMOUNT_TEST"]-4)
 
 
 
@@ -216,24 +237,28 @@ def delete(jtest,conn,field,operation,valueToSearch):
     conn.drop_database(dbname)
     db = conn[dbname]
     col = db[colname]
+    MB16 = 16000000
+    ACUMULATE = 1
+    if (jtest["MEMORY"]/MB16 < 1):
+        ACUMULATE = 1000
 
     _id = insert_base(jtest,conn)
 
+    VALUE=valueToSearch*ACUMULATE
+    docs=[]
+    for doc in col.find({field: {operation: VALUE}}):
+        docs.append(doc)
+    rows=len(docs)
+
     for i in range(jtest["AMOUNT_TEST"]):
 
-        docs=[]
-        for doc in col.find({field: {operation: valueToSearch}}):
-            docs.append(doc)
-
         tini = time.time_ns()
-        rows = col.delete_many({field: {operation: valueToSearch}})
+        resp = col.delete_many({field: {operation: VALUE}})
         tend = time.time_ns() - tini
-        print("{'db':'%s','col':'%s','idtest':%d,'time_ns':%d, 'rows':%s}" % (dbname,colname,i,tend,rows))
+        print("%s" % (str( get_work_json(jtest,dbname,colname,i,tend,rows,_id) )))
 
-        n=len(docs)
-        if n>0:
+        if rows>0:
             col.insert_many(docs)
-
 
     return
 
@@ -254,18 +279,29 @@ def DELETE_ALL_NFOUND_SIDX_SSAT(jtest,conn):
     delete(jtest,conn,"cmp2","$lt",-1)
 
 def DELETE_ALL_FOUND_SIDX_SSAT(jtest,conn):
-    delete(jtest,conn,"cmp2","$gt",jtest["AMOUNT_TEST"]-10)
+    delete(jtest,conn,"cmp2","$gt",jtest["AMOUNT_TEST"]-4)
 
 def DELETE_ALL_NFOUND_CIDX_SSAT(jtest,conn):
     delete(jtest,conn,"_id","$lt",-1)
 
 def DELETE_ALL_FOUND_CIDX_SSAT(jtest,conn):
-    delete(jtest,conn,"_id","$gt",jtest["AMOUNT_TEST"]-10)
+    delete(jtest,conn,"_id","$gt",jtest["AMOUNT_TEST"]-4)
 
 #print('Argument list: %s' % str(sys.argv))
 test = sys.argv[1]
 jtest = get_test_json( test )
-conn = pymongo.MongoClient("mongodb://localhost:27017/")
 
-print("%s" % str(jtest))
-eval(jtest["FUNCTION"])(jtest,conn)
+tini = time.time_ns()
+status=""
+try:
+    status="FINALIZED"
+    #print("%s" % (str(jtest)))
+    conn = pymongo.MongoClient("mongodb://localhost:27017/")
+    eval(jtest["FUNCTION"])(jtest,conn)
+except:
+    status="ERROR-"+str(sys.exc_info()[0])
+    print("%s" % str(jtest) )
+tendns = time.time_ns() - tini
+tendms = tendns/1000000
+tends = tendns/1000000000
+print("{'ID':%d,'STATUS':'%s','total_time_ns':%d,'total_time_ms':%d,'total_time_s':%d}" % (jtest["ID"],status,tendns,tendms,tends))
