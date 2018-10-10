@@ -1,6 +1,7 @@
 import sys
 import json
 
+
 filepath = sys.argv[1]
 
 with open(filepath, 'r') as f:
@@ -14,8 +15,12 @@ with open(filepath, 'r') as f:
         for CAACTION, ACTION in enumerate(data[TYPE]):
             for CBYTESIZE, BYTESIZE in enumerate(data["bytesize"]):
                 MEMORY = BYTESIZE * AMOUNT_TEST
-                print("%d;%s;%d;%s;%d;%d;%d;%d;%d;%d;%d" % (ID,TYPE,CTYPE,ACTION,CAACTION,CBYTESIZE,BYTESIZE,MEMORY,AMOUNT_TEST,SIZE_REST,data["UPSERT"][0]) )
-                ID=ID+1
-                if TYPE=="UPDATE":
-                    print("%d;%s;%d;%s;%d;%d;%d;%d;%d;%d;%d" % (ID,TYPE,CTYPE,ACTION,CAACTION,CBYTESIZE,BYTESIZE,MEMORY,AMOUNT_TEST,SIZE_REST,data["UPSERT"][1]) )
-                    ID=ID+1
+                FUNCTION=TYPE+"_"+ACTION
+                IDFUNCTION=str(CTYPE)+"_"+str(CAACTION)+"_"+str(CBYTESIZE)
+
+                print("%d;%s;%d;%s;%d;%d;%d;%d;%d;%d;%d;%s;%s" % (ID,TYPE,CTYPE,ACTION,CAACTION,CBYTESIZE,BYTESIZE,MEMORY,AMOUNT_TEST,SIZE_REST,data["UPSERT"][0],FUNCTION,IDFUNCTION) )
+
+                #ID=ID+1
+                #if TYPE=="UPDATE":
+                #    print("%d;%s;%d;%s;%d;%d;%d;%d;%d;%d;%d;%s;%s" % (ID,TYPE,CTYPE,ACTION,CAACTION,CBYTESIZE,BYTESIZE,MEMORY,AMOUNT_TEST,SIZE_REST,data["UPSERT"][1],FUNCTION,IDFUNCTION) )
+                #    ID=ID+1

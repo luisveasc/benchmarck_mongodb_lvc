@@ -6,9 +6,6 @@ import math
 
 def get_test_json( test ):
     arrtest = test.split(";")
-    UPSERT=False
-    if arrtest[10]==1: UPSERT=True
-
     jdata = {
             "ID": int(arrtest[0]),
             "TYPE": arrtest[1],
@@ -20,9 +17,9 @@ def get_test_json( test ):
             "MEMORY": int(arrtest[7]),
             "AMOUNT_TEST": int(arrtest[8]),
             "SIZE_REST": int(arrtest[9]),
-            "UPSERT": UPSERT,
-            "FUNCTION":arrtest[1]+"_"+arrtest[3],
-            "IDFUNCTION": arrtest[2]+"_"+arrtest[4]
+            #"UPSERT": (arrtest[10]==1),
+            "FUNCTION":arrtest[11],
+            "IDFUNCTION": arrtest[12]
             }
 
     return jdata
@@ -149,9 +146,9 @@ def find(jtest,conn,field,operation,valueToSearch):
 
     for i in range(jtest["AMOUNT_TEST"]):
         tini = time.time_ns()
-        rows = col.find({field: {operation: valueToSearch}}).count()
+        rows = col.find({field: {operation: valueToSearch}})
         tend = time.time_ns() - tini
-        print("%s" % (str( get_work_json(jtest,dbname,colname,i,tend,rows,_id) )))
+        print("%s" % (str( get_work_json(jtest,dbname,colname,i,tend,rows.count(True),_id) )))
 
     return
 
@@ -187,21 +184,24 @@ def update(jtest,conn,field,operation,valueToSearch):
     conn.drop_database(dbname)
     db = conn[dbname]
     col = db[colname]
-    data = "a"*(jtest["BYTESIZE"]-jtest["SIZE_REST"])
+    data = "b"*(jtest["BYTESIZE"]-jtest["SIZE_REST"])
     MB16 = 16000000
     ACUMULATE = 1
     if (jtest["MEMORY"]/MB16 < 1):
         ACUMULATE = 1000
 
     _id = insert_base(jtest,conn)
-
     VALUE=valueToSearch*ACUMULATE
+
+    resp = col.find({field: {operation: VALUE}})
+    rows = resp.count(True)
 
     for i in range(jtest["AMOUNT_TEST"]):
         tini = time.time_ns()
-        rows = col.update({field:{operation:VALUE}},{"$set":{"data":data}},jtest["UPSERT"])
+        col.update_many({field:{operation:VALUE}},{"$set":{"data":data}},multi=True)#,jtest["UPSERT
         tend = time.time_ns() - tini
-        print("%s" % (str( get_work_json(jtest,dbname,colname,i,tend,rows.modified_count,_id) )))
+        #print(">>>>>>>>>>>>>>>>> value:"+field+" - "+operation+" - "+str(VALUE) + " - " +rows.modified_count)
+        print("%s" % (str( get_work_json(jtest,dbname,colname,i,tend,rows,_id) )))
 
     return
 
@@ -299,9 +299,9 @@ try:
     conn = pymongo.MongoClient("mongodb://localhost:27017/")
     eval(jtest["FUNCTION"])(jtest,conn)
 except:
-    status="ERROR-"+str(sys.exc_info()[0])
+    status="ERROR"
     print("%s" % str(jtest) )
 tendns = time.time_ns() - tini
 tendms = tendns/1000000
 tends = tendns/1000000000
-print("{'ID':%d,'STATUS':'%s','total_time_ns':%d,'total_time_ms':%d,'total_time_s':%d}" % (jtest["ID"],status,tendns,tendms,tends))
+print('{"ID" : %d , "STATUS" : "%s","total_time_ns" : %d , "total_time_ms" : %d ,"total_time_s" : %d }' % (jtest["ID"],status,tendns,tendms,tends))
