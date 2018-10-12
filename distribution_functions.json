@@ -1,0 +1,5878 @@
+{
+  "LIMITS_SIZEBYTES": [0, 100, 400, 700, 1000, 4000, 7000, 10000, 40000, 70000, 100000, 400000, 700000, 800000, 900000, 1000000, 2000000, 3000000, 4000000, 5000000, 6000000, 7000000, 8000000, 9000000, 10000000, 11000000, 12000000, 13000000, 14000000, 15000000, 16000000],
+  "FUNCTIONS_DISTRIBUTION": ["cauchy", "chi2", "expon", "norm", "uniform"],
+  "TIMES": [{
+    "funDistr_map": "0_0_1",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [18840273.610825308, 1099054.2261406202],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_0_2",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [14236737.591007596, 1088407.6549786539],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_0_3",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [15387315.072285978, 3047175.1583751459],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_0_4",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [18640620.746559381, 7900359.8491185624],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_0_5",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [13912303.443395456, 896423.04632535682],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_0_6",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [15779864.461203134, 3941014.2398563172],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_0_7",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [13857722.981796596, 712037.97190390853],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_0_8",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [14574378.928964013, 1076201.9009378029],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_0_9",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [15879488.550806845, 3485844.7026592232],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_0_10",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [17095259.10160112, 5801427.8254208118],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_0_11",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [14843345.117555793, 923909.39770848432],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_0_12",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [16705294.305959133, 1595368.5896885423],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_0_13",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [15536388.531328321, 890575.01887703058],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_0_14",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [18560889.155156061, 3516357.5607113331],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_0_15",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [21708507.28207738, 8530182.2556322496],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_0_16",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [17665878.931884848, 1210044.4912825096],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_0_17",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [19761275.23658143, 1654972.8895024539],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_0_18",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [21899355.040477131, 1617634.5871536136],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_0_19",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [27829882.286241919, 6998927.586167505],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_0_20",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [63132470.349218912, 36647393.304481782],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_0_21",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [59069060.824335277, 25889044.954334687],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_0_22",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [46118201.922142446, 18368746.136974812],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_0_23",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [62783778.519908778, 26673919.640077468],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_0_24",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [52058131.054999657, 19879126.94827434],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_0_26",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [58544059.646936893, 21976875.386052419],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_0_27",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [100248889.79823619, 45365736.403237358],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_0_28",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [110373194.39282417, 44681750.358266629],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_0_29",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [100520410.98353025, 49734152.353073344],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_0_30",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [108099708.92028315, 46959546.620764129],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_1_1",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [201885.77390845533, 16770.542350511667],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_1_2",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [198509.07192794012, 15236.693889057973],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_1_3",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [245196.63078749509, 19260.71009237794],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_1_4",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [222785.13290745663, 17109.679510140584],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_1_5",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [349825.57076902781, 54522.666606277569],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_1_6",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [216707.03297717977, 20937.345856528817],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_1_7",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [341212.29440141708, 95577.314884612657],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_1_8",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [242231.44406128104, 19535.015192334402],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_1_9",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [436063.31982211169, 90416.180541493843],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_1_10",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [535663.16198390711, 148908.96949547715],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_1_11",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [667018.03643193189, 51096.858539329194],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_1_12",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [1727132.2637734688, 166077.60027117],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_1_13",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [1520417.6576214978, 189976.67597921102],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_1_14",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [1732934.0024183262, 67735.179834667695],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_1_15",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [1904879.4820823993, 79066.398102195613],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_1_16",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [3620846.0138190086, 74352.777509684529],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_1_17",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [5633993.766917293, 1588016.7817953322],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_1_18",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [8540148.6445436925, 2308577.4585218723],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_1_19",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [9424936.4069195539, 2556825.9559497703],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_1_20",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [14403722.95520757, 719484.80080485588],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_1_21",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [24627772.48774191, 1088510.0339663879],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_1_22",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [19214229.769027833, 1239724.1179829855],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_1_23",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [21176145.517722882, 1246789.48976196],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_1_24",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [24660262.440763563, 1560000.9234758851],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_1_25",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [26339228.84738161, 1418315.9801841339],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_1_26",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [28767010.680963062, 1534707.1828837662],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_1_27",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [33276257.521925114, 3071920.1033078441],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_1_28",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [50972899.877940468, 6571909.8145134095],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_1_29",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [38164649.643482141, 4646289.5410535615],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_1_30",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [42242103.062348858, 6010957.3586075241],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_2_1",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [243850.96630046295, 1414.3571676201236],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_2_2",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [230852.29733481578, 13847.657484187444],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_2_4",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [248662.53669889009, 2383.9908960581365],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_2_5",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [387783.06806489907, 32415.648117839119],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_2_6",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [251103.84966802975, 2257.3164769397204],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_2_7",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [228754.67880226884, 13193.790592851567],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_2_8",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [250289.94502547095, 11176.769290427694],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_2_9",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [379614.34863474465, 26389.779683742465],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_2_10",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [454619.31464626471, 36658.143399585904],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_2_11",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [1029024.2831640505, 40102.799048876674],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_2_12",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [1778670.2484783391, 49490.081929454478],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_2_13",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [2025018.3775478799, 39002.816384505277],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_2_14",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [2256169.0867394051, 46906.107616473993],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_2_15",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [2642728.5602728627, 138172.75150340455],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_2_16",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [4803138.8961124616, 272039.46367857041],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_2_17",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [6877588.4549657358, 265236.29670586216],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_2_18",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [9984918.577439839, 502192.82160317182],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_2_19",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [11021257.084258266, 446388.15543894749],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_2_20",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [14901995.608306479, 510723.69254792534],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_2_21",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [17189138.857073762, 318904.50241917174],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_2_22",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [20068754.272435471, 430351.79370990727],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_2_23",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [22686421.480154023, 616815.18955913233],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_2_24",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [24809373.521667581, 531415.22504765587],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_2_25",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [26422857.901181523, 528698.46869513951],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_2_26",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [29922658.053611469, 657706.80584452604],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_2_27",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [31385252.362862043, 590050.64827620017],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_2_28",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [35023917.654003426, 756250.92489080795],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_2_29",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [36608626.10317146, 1495099.1904017697],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_2_30",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [41691709.946595818, 3398150.0126803261],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_0_1",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [25031.341605894431, 1507.5670887550007],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_0_2",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [24490.642797469867, 1340.4539867536569],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_0_3",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [24445.220595348019, 1337.4017675295513],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_0_4",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [25749.004704744315, 1469.4167450364059],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_0_5",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [27579.564148466405, 1312.1887104864911],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_0_6",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [28292.717583432262, 1323.1306673494958],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_0_7",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [27771.106469180471, 1563.9582590313819],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_0_8",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [10112.453056199396, 942.47813813336415],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_0_9",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [10699.358439959547, 227.4564378665759],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_0_10",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [9786.2770585611906, 627.38203119901482],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_0_11",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [15534.526020565199, 1764.454150298267],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_0_12",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [14484.382422220966, 1746.4788360922539],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_0_13",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [16525.216788839269, 1404.5645316622754],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_0_14",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [14300.98974880811, 1280.1475777054241],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_0_15",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [11364.284527107242, 462.33844814703161],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_0_16",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [12754.665115168877, 2233.1741886021359],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_0_17",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [12048.436542484029, 1079.4835770476486],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_0_18",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [12888.412390625686, 1527.8064541474289],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_0_19",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [11956.385738783047, 1183.8364897811853],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_0_20",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [10900.330588375702, 370.35453618685369],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_0_21",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [13813.076946752848, 836.15987883024934],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_0_22",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [11303.151475179175, 531.96517730061498],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_0_23",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [13348.581208660751, 1087.8879679925089],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_0_24",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [17045.273917877399, 1544.2608655214228],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_0_25",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [15200.433740994087, 1096.3739636266796],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_0_26",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [14869.593262605136, 1108.7155188975084],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_0_27",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [11980.098416467232, 1048.5557205251469],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_0_28",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [17811.240387937258, 1411.0917473942632],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_0_29",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [10839.764530373553, 1249.0977062835193],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_0_30",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [11361.236305048335, 715.770147572312],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_2_1",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [10106.274860082538, 281.54985284567732],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_2_2",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [11109.614518753022, 1030.3559286349564],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_2_3",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [12345.951997788956, 1054.5748438049852],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_2_4",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [12496.428389268913, 988.38562745809031],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_2_5",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [10881.907488018291, 651.29035543648308],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_2_7",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [10696.547509123686, 394.52723222789194],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_2_8",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [10159.140382284029, 270.91528977527264],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_2_9",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [10242.378395864347, 685.40769949280968],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_2_10",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [12660.109835993493, 1644.1633063291993],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_2_11",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [9381.0683287165284, 579.51974873126198],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_2_12",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [8930.5089603708511, 375.13940706547004],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_2_13",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [11137.819636811328, 599.1784281669627],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_2_14",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [10928.588878210565, 634.08812047108745],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_2_15",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [21573.098240588934, 5104.1948403622218],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_2_16",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [13774.72693638859, 1530.676458188884],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_2_17",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [14180.526755485203, 1391.0224433076019],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_2_18",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [10743.99140708915, 620.46592074258638],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_2_19",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [12046.080916577157, 1281.6589159424514],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_2_20",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [11056.598023881759, 2721.471634413535],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_2_21",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [11825.590555335708, 778.49643968640123],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_2_22",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [16714.951463872716, 2504.5470882607742],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_2_23",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [9619.9100696603673, 545.50133251445072],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_2_24",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [9836.0172800422097, 648.78408969080851],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_2_25",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [10413.105677728156, 762.55957666583481],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_2_26",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [11583.646704480498, 1235.2053291790508],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_2_27",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [10566.166983875728, 396.3767210860799],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_2_28",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [9280.1394840484663, 553.95163643112733],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_2_29",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [8954.9283924095962, 317.40934989250133],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_2_30",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [9362.200991199803, 553.47260794430372],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_4_1",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [24409.796276405301, 1432.7792957876568],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_4_2",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [24581.453671773419, 1332.129724975581],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_4_3",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [24742.778525260517, 1211.369566380763],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_4_4",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [23789.502741816952, 732.92470538288194],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_4_5",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [26593.700699116212, 1382.1498090287698],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_4_6",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [26331.690284608761, 1142.298229851117],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_4_7",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [26405.530141142332, 1066.6773353453832],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_4_8",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [12430.269533482831, 961.27943515624861],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_4_9",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [12317.086814781314, 1137.2345155240218],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_4_10",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [13249.034302548351, 1659.4899431943459],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_4_11",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [12466.682288427835, 1743.3188543684639],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_4_12",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [14999.280758286694, 1594.4881271972069],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_4_13",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [12134.93219891835, 1294.7571027579238],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_4_14",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [17225.075973140873, 1765.3823896737836],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_4_15",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [12092.291336109698, 849.98338808542383],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_4_16",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [12209.524864793564, 1085.211971712012],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_4_17",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [12627.400550247798, 1347.274716337053],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_4_18",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [12606.157197505039, 1499.0087122318566],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_4_19",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [12787.182938549382, 1409.3566367042408],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_4_20",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [11952.297586070439, 730.47607326851892],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_4_21",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [11391.346467672944, 399.62234431392403],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_4_22",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [12534.57112078442, 1058.9334055563108],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_4_23",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [10969.518501768202, 1048.1797563348932],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_4_24",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [11744.441573859458, 1068.2292324663742],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_4_25",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [9788.0633350293028, 713.11862569747291],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_4_26",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [13134.178164710022, 1671.7465823958012],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_4_27",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [10520.190909604838, 813.9841461526521],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_4_28",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [10581.336907431485, 814.86736423669663],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_4_30",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [9938.7994987468664, 828.22808760750115],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_6_1",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [9863.2041318835927, 609.56812072433013],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_6_2",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [9366.6831175683583, 663.83439649787249],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_6_3",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [9926.2653061224482, 839.62089422304996],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_6_4",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [10524.137750391015, 201.97476860906679],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_6_5",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [9806.2739681283401, 638.92596475785228],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_6_6",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [9499.4768814266245, 683.72752793718996],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_6_7",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [9638.6125652477058, 642.28536185931671],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_6_8",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [9757.7863267190551, 809.28658396453898],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_6_9",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [9827.8432735975275, 889.96426553951835],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_6_10",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [9820.0092398917077, 690.50156407962959],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_6_11",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [10061.921734159961, 504.5722811788753],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_6_12",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [9215.2276995747507, 409.46154002759664],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_6_13",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [10285.005992424673, 991.92955548192253],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_6_14",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [9433.5122518074641, 1084.2387921697962],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_6_15",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [11076.908794542747, 1768.3506555695899],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_6_17",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [12207.028303842313, 987.29858543671412],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_6_18",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [11180.707106111142, 873.31657712588333],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_6_19",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [10295.243063799851, 345.6566726409763],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_6_20",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [14580.895434073907, 1232.9145371945106],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_6_21",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [10431.540015452165, 281.79448128739739],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_6_22",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [9799.4627357868358, 765.76109586563496],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_6_23",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [10283.540750372169, 689.25459992113713],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_6_24",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [9237.8332799417076, 719.39043811426882],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_6_25",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [9686.3271901558401, 789.34401557380556],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_6_26",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [9966.3708896300905, 412.67835568136485],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_6_27",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [9653.5946005364294, 604.38482083462713],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_6_28",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [9314.8769919786955, 553.24084998621481],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_6_30",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [9404.7780353138478, 473.95785092676073],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_8_1",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [23655.39600881904, 1205.1126370658749],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_8_2",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [23988.186713651299, 1404.0008714191781],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_8_3",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [24416.674166619552, 1038.2628299600262],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_8_4",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [26514.805057757174, 951.19985080423055],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_8_5",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [26244.775510204083, 1122.4380482233062],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_8_6",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [26663.456743362171, 1260.8384569095638],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_8_7",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [27249.366002726114, 990.27605585224057],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_8_8",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [21458.736540599621, 1060.5213752784946],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_8_9",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [49644.8196807809, 3427.8799873783432],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_8_10",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [21178.189929711498, 1674.1072336586487],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_8_11",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [10747.249250946914, 1582.5336449565511],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_8_12",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [15127.471328697688, 1334.7149752057496],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_8_13",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [10968.200765070573, 659.95090577902636],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_8_14",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [12669.842576365727, 1122.9883310146852],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_8_15",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [13990.560593212354, 1220.7905802537432],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_8_16",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [13322.227768669794, 1180.3491753834237],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_8_17",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [10964.316116104799, 425.7614871398527],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_8_18",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [10924.203013800165, 476.47310582941589],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_8_19",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [13362.070834982193, 1058.1201740339689],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_8_20",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [14162.074547270429, 971.59607942839398],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_8_21",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [14729.865340041835, 834.0077879811322],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_8_22",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [13699.106450336367, 1510.4389433450015],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_8_23",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [12269.157260318714, 999.81510422504186],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_8_24",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [12865.918631164375, 1297.9014312384261],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_8_25",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [11146.019327768043, 315.58136252141446],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_8_26",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [12742.684606252471, 1366.1634141369743],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_8_27",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [28544.054779806658, 1168.1475430612716],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_8_28",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [15898.776703663922, 4639.2591481410864],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_8_29",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [11278.307793292754, 364.95778286198123],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_8_30",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [10274.439570103203, 1106.8214444153894],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_10_1",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [10146.911313371147, 228.82929877473441],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_10_2",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [10145.860170476317, 712.65579694894689],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_10_3",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [10482.018818977267, 386.09367418533856],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_10_4",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [10058.591290255714, 843.24756576212758],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_10_5",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [10269.429394287725, 202.43630852816545],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_10_7",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [9417.2062298603651, 644.72225014441051],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_10_8",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [14423.725761772852, 1411.1193842900725],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_10_9",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [14554.20201506272, 954.01542261939846],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_10_10",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [9610.9291712991762, 691.24602673923994],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_10_11",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [10731.152298038329, 846.92739555100786],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_10_12",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [12389.830641767323, 1400.0791782241586],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_10_13",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [9076.4742432522416, 732.05174946289935],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_10_14",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [11827.779348119673, 894.08996089413142],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_10_15",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [10720.000885672827, 313.44140516414518],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_10_16",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [10404.578645862777, 372.82237989597337],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_10_17",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [10708.953398533926, 511.5347530977632],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_10_18",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [9331.9716710322173, 685.29249377927772],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_10_19",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [9308.8351141010407, 536.54135078729348],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_10_20",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [11088.292837356548, 805.08697203509223],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_10_21",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [9313.09476699267, 471.19194668267477],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_10_22",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [8795.4466429230961, 345.21528249268562],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_10_23",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [10078.438609053963, 590.49557702391962],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_10_24",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [10060.244207008751, 540.03354039660042],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_10_25",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [9316.2582647093932, 757.41246913450993],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_10_26",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [9230.0057725768056, 630.49557393648854],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_10_27",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [9878.4236970873299, 1025.1483081680524],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_10_28",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [9113.429281223107, 410.08338238062635],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_10_29",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [9189.9042342698849, 524.46408411040045],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_10_30",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [9381.7191098045878, 667.06936045680663],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_12_1",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [23898.345883505754, 1297.5590907004148],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_12_2",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [23651.489343659905, 1347.5003397408063],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_12_3",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [24994.964836904288, 1230.4584027699225],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_12_4",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [23116.563991432216, 1324.3053059365711],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_12_5",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [25276.60523489174, 844.05836873647218],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_12_6",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [26186.60193717376, 1045.0395672887353],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_12_7",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [27180.958850760988, 916.31624540472467],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_12_8",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [9644.5319501761933, 432.04435756718749],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_12_9",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [10442.009384363164, 347.50678647331227],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_12_10",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [11375.366750208857, 916.74756018703204],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_12_11",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [10470.978812947154, 459.62083308432761],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_12_12",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [16677.028492283338, 1025.1656258164583],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_12_13",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [10592.217517477906, 310.36455720256578],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_12_14",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [13396.432195777666, 1376.7358832291259],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_12_15",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [14220.394011344149, 1677.5610559815684],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_12_16",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [13295.496837331424, 1189.4175576468044],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_12_17",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [14817.845666798576, 1153.4312263347165],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_12_18",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [10784.45600216079, 430.29269889773082],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_12_19",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [10562.829046299961, 1170.6239036531845],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_12_20",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [10587.634104057135, 1007.0783686661537],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_12_21",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [13594.520229144287, 1189.7651140989815],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_12_22",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [10703.729518030665, 727.42630318363467],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_12_23",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [10435.397723632388, 593.34636730144018],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_12_24",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [9676.1544651101431, 673.33093010704397],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_12_25",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [10853.480223114175, 305.9901706109361],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_12_26",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [13853.8949127204, 1029.5685388054333],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_12_27",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [13971.127134879809, 1223.7470359377298],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_12_28",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [10999.858700636303, 500.57866591332908],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_12_29",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [15571.227850327572, 2413.6519994790415],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_12_30",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [10904.852488363766, 424.72187800055281],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_14_1",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [23660.623318949001, 1780.8889785169331],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_14_2",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [23353.363276612585, 2155.8067981079857],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_14_3",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [21311.615416988592, 1821.265742584844],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_14_4",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [19554.165269062381, 1604.8779938806335],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_14_5",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [20309.650567521559, 2110.0453734811854],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_14_6",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [22312.693224288792, 823.31571194235937],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_14_7",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [19866.365217555169, 1899.186866936974],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_14_8",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [13630.554355814347, 1962.4444799991586],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_14_9",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [11774.967946181241, 1209.1638686309059],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_14_10",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [9346.7252655448156, 511.19630926741303],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_14_11",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [13681.375820503637, 1637.9408322062131],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_14_12",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [11847.598432170653, 648.70403051602727],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_14_13",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [11224.624323967812, 361.49980166796553],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_14_14",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [13879.872651553696, 1625.2032698720036],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_14_15",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [13147.553639738444, 513.9957805508584],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_14_16",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [12345.808424570199, 843.22999155111984],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_14_17",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [10267.719518093478, 1444.2529651315833],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_14_18",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [12101.980521479136, 1019.7439684404745],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_14_19",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [10643.997751270406, 538.24668743308541],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_14_20",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [9132.5053423031259, 382.49137481007091],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_14_21",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [11064.787231235985, 905.13050064018512],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_14_22",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [9648.6712771904695, 516.97997963889384],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_14_23",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [9413.375883317316, 447.23050020772348],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_14_24",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [10520.374074283453, 1228.1267042326269],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_14_25",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [10796.04406379357, 301.33362765764866],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_14_26",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [13553.263685529613, 1470.0668543713491],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_14_27",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [11022.631013624286, 952.04358803342666],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_14_28",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [10649.744901099868, 213.04156576374504],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_14_29",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [12645.99868091281, 926.10775742911642],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_14_30",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [10585.080275877664, 304.45804658866336],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_0_1",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [107525369.61729512, 2838333.6370858531],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_0_2",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [113723203.06378728, 1980484.678654836],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_0_3",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [116618187.2861854, 1250829.6846518326],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_0_4",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [122978035.72424795, 6010089.6011081822],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_0_5",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [157584193.79985049, 3076195.9231913127],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_0_6",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [164825430.41296226, 3732485.9178752],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_0_7",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [188836297.93828553, 3472267.1339324336],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_0_8",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [393245.58655410452, 61823.150428960427],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_0_9",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [414680.65966294182, 28617.325148422358],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_0_10",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [454696.14010590391, 23908.63398947279],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_0_11",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [1147202.3763355757, 140655.07183998951],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_0_12",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [1728235.9973555445, 78171.463921756862],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_0_13",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [1823013.4650912995, 49951.617273852491],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_0_14",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [1989137.7650266017, 71522.135648070253],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_0_15",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [2285268.5040232162, 107560.19528995856],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_0_16",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [4308292.734957695, 156206.38104935386],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_0_17",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [6399078.1248358991, 171793.45223293034],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_0_18",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [8865058.0968209989, 418618.47922340472],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_0_19",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [9997413.2223666944, 143503.99402790077],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_0_20",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [11876231.80952381, 202989.84648767332],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_0_21",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [14156093.737256676, 487695.38893221581],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_0_22",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [15468761.505455369, 308005.58706634567],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_0_23",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [17782524.883216813, 296647.13603421254],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_0_24",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [19839510.286951717, 603638.92023471254],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_0_25",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [20765372.14499281, 693901.30742352223],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_0_26",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [22825856.06426467, 307351.64416181907],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_0_27",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [25381588.84681629, 376907.67676461744],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_0_28",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [26421039.617288832, 309658.65625650471],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_0_29",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [27940565.947852079, 904204.94798874517],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_0_30",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [30070143.426033758, 408914.09768967255],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_2_2",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [193145.81357529163, 19872.497498326771],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_2_3",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [186280.42207021313, 12041.059072624072],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_2_4",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [218476.55713217883, 3848.2722761327032],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_2_5",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [225678.29841521094, 25427.096507186339],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_2_6",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [192965.04540800623, 17723.950525334069],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_2_7",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [219339.59946859631, 27442.815582669176],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_2_8",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [256915.18084685397, 16167.612060654918],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_2_9",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [319583.07882488176, 29946.891798002976],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_2_10",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [330359.99655781063, 30943.899264730338],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_2_11",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [1226322.8483803493, 114535.76566782163],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_2_12",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [1892713.652458213, 92725.99185776287],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_2_13",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [2057797.3010156967, 100600.59784222244],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_2_14",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [2029527.9445418057, 140280.17638494427],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_2_15",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [2119623.560103266, 141632.09344274693],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_2_16",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [3928375.8001582902, 93908.49992396553],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_2_17",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [6471198.2480323622, 380211.56373271695],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_2_18",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [8669969.2649292406, 333502.205778039],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_2_19",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [9916296.5637841467, 438055.5553921854],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_2_20",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [12605512.45435016, 749771.52463071106],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_2_21",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [13648605.0380274, 744657.26833837177],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_2_22",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [15685324.35762338, 781271.85098872497],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_2_23",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [16946188.786647066, 358759.98564615863],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_2_24",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [21139303.451630328, 1095296.7457049743],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_2_25",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [22123933.966470063, 1255834.8087489519],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_2_26",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [24971105.631082721, 1629935.1966912467],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_2_27",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [24410287.726364788, 395277.04409341421],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_2_28",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [26901085.915886201, 408941.039163396],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_2_29",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [28407049.840302512, 328989.32331472798],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_2_30",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [35964339.600888185, 2951425.7528314944],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_4_1",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [101420855.96342361, 929779.13731466478],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_4_2",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [114936511.10697795, 5190729.141320521],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_4_3",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [117141251.61674236, 2067560.002203017],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_4_4",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [123953740.23442063, 2794847.8525113673],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_4_5",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [163735568.54199409, 2548146.1985606868],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_4_6",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [168885758.93734336, 4793476.6661369549],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_4_7",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [182504409.72365126, 3329194.7575911609],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_4_8",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [936877.39071362629, 22743.32757615823],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_4_9",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [900299.97498131287, 28175.774094430599],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_4_10",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [541584.67382742569, 38570.145418260356],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_4_11",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [1166308.7777024014, 140864.28355866432],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_4_12",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [1775951.6963586912, 87904.36696478349],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_4_13",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [2105155.2088115024, 150639.1360627496],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_4_14",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [2546161.3686409006, 176600.47434463041],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_4_15",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [2470421.6668551075, 73861.6218508522],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_4_16",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [4660950.7042794954, 175849.062838012],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_4_17",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [6916316.7286826093, 90029.05201670622],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_4_18",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [9386076.7088334877, 277258.89649891097],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_4_19",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [10839523.037531171, 152003.13312046052],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_4_20",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [12888234.499073498, 265738.94536845607],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_4_21",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [14983196.384645825, 376202.31200572342],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_4_22",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [16966742.67851961, 196134.20584139993],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_4_23",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [19294755.17150018, 292413.71371552272],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_4_24",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [20558353.624920696, 304421.23837918433],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_4_25",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [23038750.347855859, 548129.50305729464],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_4_26",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [24790094.117003039, 361607.3511970879],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_4_27",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [27209809.328151211, 669711.19390584622],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_4_28",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [29153685.618607931, 410286.56922503881],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_4_29",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [31158165.270381469, 938101.76831774483],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_4_30",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [33662837.356568113, 698694.80283004581],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_6_2",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [207016.81114440237, 22607.839548640182],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_6_3",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [221610.62617068991, 19374.901222706943],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_6_4",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [221271.19235431938, 4074.7926436028706],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_6_5",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [325778.68373314233, 19692.254579611217],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_6_6",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [229745.50590134482, 5230.6137571626523],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_6_7",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [343389.57759059314, 43958.335215018196],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_6_8",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [279134.84568564274, 29638.203168586719],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_6_9",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [322063.02305890043, 24627.961959502853],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_6_10",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [603324.0988184748, 105392.92158519091],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_6_11",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [1219392.280061055, 129344.43535886546],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_6_12",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [2023812.2345965165, 131864.74356922004],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_6_13",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [1769994.4305689037, 57226.850487151525],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_6_14",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [2275022.3170959977, 108311.12617404675],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_6_15",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [2835024.1732903686, 228036.57124164517],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_6_16",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [4824608.0247611506, 218508.0320224165],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_6_17",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [7672311.7644549971, 385094.55711609131],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_6_18",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [10140378.723387416, 383139.87716262048],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_6_19",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [11797321.695523269, 331690.43050862529],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_6_20",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [14361889.625643056, 510304.5526629627],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_6_21",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [16446606.650818776, 397530.40017825016],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_6_22",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [19951956.543847088, 1229779.0593584338],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_6_23",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [21250483.36141105, 708515.14514898031],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_6_24",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [23311783.74927922, 878872.86823101365],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_6_25",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [27039814.565662272, 1849708.9035220754],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_6_26",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [28707094.15374903, 1027320.4222384067],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_6_27",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [32297836.335757941, 1539663.9495126302],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_6_28",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [32730893.277460568, 1091635.791284767],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_6_29",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [34638650.351310603, 1141488.0259185005],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_6_30",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [36195355.195488721, 1053787.790885868],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_8_1",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [107310089.25195824, 734165.19771711703],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_8_2",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [110956711.26922569, 3455732.5794509449],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_8_3",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [119314416.29426952, 3982816.3474759827],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_8_4",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [118439333.59965703, 2193618.0323888138],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_8_5",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [162980332.55507818, 2842163.384531118],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_8_6",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [165094512.20403767, 3454836.4185277121],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_8_7",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [182831128.59353271, 2746484.5972067732],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_8_8",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [403979.55591359356, 24116.55285642888],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_8_9",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [514531.37498508178, 49685.93928612685],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_8_10",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [422206.18219106668, 12582.806733865069],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_8_11",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [1039778.0812180827, 40261.077696401117],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_8_12",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [1636658.1291951681, 55135.903774198632],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_8_13",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [1857559.3409714764, 45861.040278788176],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_8_14",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [2158240.7799385688, 79192.330606595919],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_8_15",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [2246007.1126940153, 39198.303692449401],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_8_16",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [4239946.250306217, 141638.24585067466],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_8_17",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [6417305.2121280655, 75739.931729396994],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_8_18",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [8871416.3331825808, 301433.08136284625],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_8_19",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [10160174.948210124, 128421.63577851321],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_8_20",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [11842080.518727899, 176857.3550109941],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_8_21",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [14339771.252046155, 722391.922210283],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_8_22",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [15722573.817193359, 202168.60389132038],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_8_23",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [17503505.175011463, 261469.3876231976],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_8_24",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [19289639.704480499, 224967.55583730171],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_8_25",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [21195784.365387149, 260749.72794079769],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_8_26",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [23000979.78295362, 653300.1431562904],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_8_27",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [24683327.50811239, 291551.95977224322],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_8_28",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [26239903.676779669, 890365.61406160181],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_8_29",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [28423083.189420924, 406425.30137846939],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_8_30",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [29729254.481881402, 892922.8163169371],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_10_1",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [177592.22716565852, 12400.564794894257],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_10_2",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [204801.31337742854, 15242.283847632894],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_10_3",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [214458.81888932857, 4391.8410807219898],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_10_4",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [209591.58968850694, 16795.530622667473],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_10_5",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [238464.04427736005, 20748.201759743602],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_10_6",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [228984.57226399329, 22198.538959280206],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_10_7",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [225247.01371850682, 21240.162058561276],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_10_8",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [239610.50817519994, 4960.7342654530194],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_10_9",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [326965.55307441537, 33984.318870019983],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_10_10",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [350021.02141318208, 27578.808205008761],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_10_11",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [1188256.7950892269, 128942.77379323926],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_10_12",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [1620355.4665234513, 88511.786646093402],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_10_13",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [1824072.8898499382, 107252.94618856827],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_10_14",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [2361901.0974993878, 191005.17100605305],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_10_15",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [2399857.8020050125, 146897.3813036202],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_10_16",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [4358943.4909579717, 193864.07364682009],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_10_17",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [5796049.0642332658, 75471.302591360902],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_10_18",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [8627871.4894253202, 191612.3455357746],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_10_19",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [9791984.3304187804, 115170.31122554823],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_10_20",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [11478658.144892305, 151035.01203476643],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_10_21",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [14103528.187002594, 592018.16991795273],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_10_22",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [15486780.261782276, 191216.10448865444],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_10_23",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [17183245.528595924, 235436.29248060487],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_10_24",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [19112640.431850303, 209922.99999042071],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_10_25",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [20914186.215607941, 261418.09363338939],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_10_26",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [22672670.789473683, 735760.97161741217],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_10_27",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [24893345.776546627, 566285.96977900283],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_10_28",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [26665571.110715382, 946786.08322613058],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_10_29",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [28101904.290682841, 354133.08286835346],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_10_30",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [30505613.301103637, 1072936.9348707658],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_12_1",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [104931669.47423068, 336116.25344889419],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_12_2",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [118561721.79848745, 3621925.5272595258],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_12_3",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [122054650.5317052, 2635698.370912327],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_12_4",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [122271505.3108649, 2333151.5432761577],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_12_5",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [158159440.55191234, 3377568.4724595752],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_12_6",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [167920996.61060545, 2553332.7426229496],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_12_7",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [192253021.95234326, 3155935.0513273291],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_12_8",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [450024.59360808029, 44821.265754777938],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_12_9",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [511869.27734122268, 55493.674091479646],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_12_10",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [585546.51826935762, 51086.452701429902],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_12_11",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [1443080.1327001718, 96955.089547104726],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_12_12",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [2530408.2344394824, 115310.43102538829],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_12_13",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [2716853.2081645215, 125237.75537325382],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_12_14",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [3158560.4452044903, 151967.68829756245],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_12_15",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [3371049.8689769525, 132212.50467170577],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_12_16",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [6671956.5149590774, 554224.23398899881],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_12_17",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [9431740.5242554992, 371911.73427588062],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_12_18",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [12959778.936457686, 612916.48700127041],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_12_19",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [15823722.154031696, 735506.21401553461],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_12_20",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [18837262.784159645, 1263215.1335993388],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_12_21",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [21692655.1233849, 1144447.6876827788],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_12_22",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [25001504.49972048, 1350333.0105652544],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_12_23",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [24803485.814448401, 895208.09031861043],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_12_24",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [27525620.381216198, 1093106.5097612604],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_12_25",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [29032051.033762351, 814544.86463047494],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_12_26",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [32964009.421617951, 1163963.5576413223],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_12_27",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [34104614.381147102, 919991.4302958824],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_12_28",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [40643232.790629454, 2189029.0776213589],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_12_29",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [43727236.903505638, 1448568.0702407735],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_12_30",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [46587438.123698965, 1638762.4011773469],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_14_1",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [7248606.7491096174, 175661.97576544419],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_14_2",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [7026931.9728833372, 177572.91593748098],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_14_3",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [6948177.7712891251, 128768.0333488152],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_14_4",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [7247845.0279834922, 112998.25262892578],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_14_5",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [9248748.709957853, 454065.39942113427],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_14_6",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [11517954.001187179, 693597.19545331935],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_14_7",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [12744474.655297391, 316288.24839302723],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_14_8",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [309334.55962588172, 28334.338865043421],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_14_9",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [378954.80959290452, 42542.877263910115],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_14_10",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [436773.38485939155, 41991.073368615565],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_14_11",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [1527110.607923317, 130434.69480584114],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_14_12",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [2261276.6428288766, 124418.2988139208],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_14_13",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [2646718.9297303408, 113796.84632884937],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_14_14",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [2926550.3150733975, 172360.37509992823],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_14_15",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [3328073.8870610115, 213419.93462552287],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_14_16",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [6084990.7665592544, 267714.96092316706],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_14_17",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [9101812.6877909061, 355441.26206062024],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_14_18",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [12494741.610190893, 433978.88571664674],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_14_19",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [15287442.808807734, 772503.20855898538],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_14_20",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [17223023.035992239, 571166.56371240038],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_14_21",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [18853808.5521699, 322164.97936715186],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_14_22",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [21397569.285978105, 417809.91914909374],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_14_23",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [23491630.23370456, 351700.37857119431],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_14_24",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [27013680.936746631, 784074.31085362413],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_14_25",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [28606565.034503553, 413211.86787210818],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_14_26",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [30750205.253773529, 604478.69635629153],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_14_27",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [34121409.854240865, 463033.35782555462],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_14_28",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [37321780.549173683, 703416.57974915777],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_14_29",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [40503893.740780525, 1718160.721425965],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_14_30",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [42097265.271644019, 613586.83389159315],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_0_1",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [98324637.332089603, 1163365.2107900062],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_0_2",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [117386972.09077202, 2446154.0230875141],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_0_3",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [114931844.49265395, 966547.06007766002],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_0_4",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [118108775.35127293, 4298301.9625674235],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_0_5",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [155517845.61851999, 2625874.9410992172],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_0_6",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [162292100.58501518, 2710386.6905409135],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_0_7",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [189270141.7219741, 4536856.6481613684],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_0_8",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [298062.09598557797, 1854.574260051201],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_0_9",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [735520.65176098119, 19100.596308213931],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_0_10",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [373237.14438351517, 23010.991778068717],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_0_11",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [320539.43992185977, 15608.347818629098],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_0_12",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [449674.09697175265, 57976.584596504566],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_0_13",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [366160.92696653918, 37326.198323947036],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_0_14",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [369947.33194515103, 41438.737329046038],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_0_15",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [572497.65030998539, 31400.889673222973],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_0_16",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [316537.25670693023, 7744.9663413045664],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_0_17",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [444975.34593375673, 33387.259609740991],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_0_18",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [366550.76985697326, 21584.114386931105],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_0_19",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [376350.0551001564, 13529.491924281292],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_0_20",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [451461.54662973224, 42862.482760171551],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_0_21",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [380641.0297736823, 35820.759007816479],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_0_22",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [421287.99038950767, 33723.614165856896],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_0_23",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [443709.72299797111, 24020.591081220045],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_0_24",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [371371.10600435926, 29066.788067130361],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_0_25",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [505957.98021369218, 31086.027811085256],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_0_26",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [430919.0831778695, 38919.000829864686],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_0_27",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [411444.02344206389, 35778.4628101001],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_0_28",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [344176.66864529753, 16144.392693661272],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_0_29",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [346522.07435254811, 4655.0340333123513],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_0_30",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [393603.75165356998, 32611.460264176847],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_2_2",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [162940.06819052642, 6910.9859760536374],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_2_3",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [159355.80338691338, 5339.4310794322382],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_2_4",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [194174.26274332448, 1429.6157963173914],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_2_5",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [197833.63973844386, 2157.1875451652827],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_2_6",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [214057.83081764565, 9786.180678705814],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_2_7",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [199571.33911847288, 2658.0719400184898],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_2_8",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [313722.28138014209, 33227.058701554612],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_2_9",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [189471.80701754385, 15673.237660811548],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_2_11",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [186498.13445267302, 18482.271254995212],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_2_12",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [197370.33957701272, 8497.6176670864552],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_2_14",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [249130.11722916312, 39322.572754109584],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_2_15",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [229526.99851759724, 17745.491094758167],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_2_16",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [241230.88913386219, 30250.023632224576],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_2_17",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [198895.48876577406, 6242.0327437404449],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_2_18",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [248740.37697627532, 26326.93085137631],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_2_19",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [168283.42921840944, 10893.465567800429],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_2_20",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [169931.42011042646, 10170.835732893349],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_2_21",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [207682.29784988789, 6871.4359916365329],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_2_22",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [201444.58849504712, 7772.3349735939801],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_2_23",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [202321.30026821437, 15408.040240276436],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_2_24",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [205386.98746867166, 8188.6821862264851],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_2_25",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [216915.52635975904, 20403.185746132011],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_2_26",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [182604.87887010761, 21682.240866036678],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_2_27",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [198096.53472025928, 3718.5567322661218],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_2_28",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [169637.69866395311, 7504.0999068205592],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_2_29",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [198160.41169339389, 6633.2595975885679],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_2_30",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [172995.86837394242, 10982.549014797149],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_4_1",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [105579140.04652607, 3366526.356469336],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_4_2",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [111422581.02701616, 3405451.9782939516],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_4_3",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [112756828.65447453, 930606.22523041419],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_4_4",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [119815180.39595227, 2640449.0558572914],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_4_5",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [153302540.96178418, 2665966.9566200152],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_4_6",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [162299297.20089698, 3538476.9822732299],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_4_7",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [196000816.81486928, 9799143.3892351966],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_4_8",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [540080.75290356216, 33882.137732597716],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_4_9",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [350306.39242215815, 27330.585996551847],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_4_10",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [452128.75643997203, 53427.981600677478],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_4_11",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [583074.08054597653, 95632.95729812127],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_4_12",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [605710.5640416831, 32935.297250450385],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_4_13",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [660445.77334313246, 33679.362073092991],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_4_14",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [707049.22607270034, 38264.101078253334],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_4_15",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [638359.49491523288, 18701.698480913328],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_4_16",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [914729.08114270633, 91932.944984593822],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_4_17",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [1216998.0156594494, 203063.14309261492],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_4_18",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [1824726.1793016377, 537801.08574412053],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_4_19",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [1680126.0900371231, 568384.02257166093],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_4_20",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [3359679.9605090413, 331365.0778118266],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_4_21",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [3458691.1149301827, 123713.0341810126],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_4_22",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [4173329.0128265526, 287118.42489836056],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_4_23",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [5024126.6645121574, 793371.59487512766],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_4_24",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [5223416.2485851217, 487687.64402399206],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_4_25",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [5654663.1859033555, 523172.67445808061],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_4_26",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [5943716.2534657437, 502269.88677209028],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_4_27",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [6468043.8050075071, 581316.98166460707],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_4_28",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [7055561.8502270719, 756520.53393949522],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_4_29",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [7189339.6557496507, 694462.91331104178],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_4_30",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [7449335.0734480303, 522025.59245671035],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_6_1",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [204009.34410587873, 16704.937306565556],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_6_2",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [215842.32468389015, 1946.9568110456935],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_6_3",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [223921.97425895568, 8520.4748330955663],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_6_4",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [200926.97546497823, 14986.233935188113],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_6_5",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [219488.03255004677, 1808.1350570545205],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_6_6",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [224091.53563105757, 17398.123201339196],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_6_7",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [220503.05381247602, 2164.3972420966925],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_6_8",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [222785.14459080028, 18529.070326649162],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_6_9",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [330064.86466165411, 43761.998811183497],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_6_10",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [253536.44718312073, 15157.252589748447],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_6_12",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [385587.57186198578, 26716.338577587976],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_6_13",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [471041.84065426723, 25732.539097443903],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_6_14",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [549638.74345638533, 38071.280301774466],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_6_15",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [465642.42516692739, 42864.312653748784],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_6_16",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [654467.98533928802, 45299.675337773013],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_6_17",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [917868.14133077068, 166526.76494160164],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_6_18",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [1463672.5622703373, 392917.94153312995],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_6_19",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [1319642.1366825581, 436078.08617088723],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_6_20",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [2860251.1298233047, 126761.55533642284],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_6_21",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [3570985.2192260101, 318495.45711719745],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_6_22",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [3753745.1915126159, 179146.57653071929],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_6_23",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [4307631.1790378205, 329420.58321162814],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_6_24",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [4721533.0578451147, 297441.42670116067],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_6_25",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [5128565.3217630545, 492008.79550376872],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_6_26",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [5603729.0294156447, 463683.35332462715],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_6_27",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [6115759.1053950666, 460506.60097632115],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_6_28",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [6597370.8454469498, 581109.11640345713],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_6_29",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [6816603.1561233904, 442104.00157358614],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_6_30",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [7212344.7756044241, 587374.44669516361],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_8_1",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [106601274.34254809, 3145780.9820516617],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_8_2",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [113080668.48269799, 4028838.1933560269],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_8_3",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [116999676.51926184, 3591658.4461636902],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_8_4",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [128758440.66138403, 3189297.7847526679],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_8_5",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [148861290.21708405, 2892807.1092967163],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_8_6",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [158542844.45270449, 4548707.9795223968],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_8_7",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [181718695.77061072, 3789961.9377613659],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_8_8",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [461072.84533388616, 36954.99151189503],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_8_9",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [394437.07023197087, 35461.106582745422],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_8_10",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [280742.30818901892, 19494.178490208007],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_8_11",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [323236.98007550201, 24314.884543906312],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_8_12",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [482273.92594267626, 25309.599141476148],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_8_13",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [390284.27750453824, 36354.70504668542],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_8_14",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [534412.04484896443, 41579.938725776708],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_8_15",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [464413.42985282745, 40590.387288629492],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_8_16",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [342409.92915873643, 24887.039622960401],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_8_17",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [603590.06839153019, 30478.024720529975],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_8_18",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [363295.51830704586, 23552.523419730354],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_8_19",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [359193.74352548033, 29793.293622060908],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_8_20",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [476076.34889228077, 32822.663866187657],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_8_21",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [391622.42533024284, 32940.068908245928],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_8_22",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [403489.56112084718, 45957.085872530406],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_8_23",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [350236.40094597393, 27507.262960788692],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_8_24",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [363126.72326178855, 12607.644625513853],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_8_25",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [364741.37693858705, 21912.946325279991],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_8_26",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [417530.44449469546, 99728.410078315806],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_8_27",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [356948.33636723395, 6980.5095925281239],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_8_28",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [486651.90711741766, 47863.724002344388],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_8_29",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [524074.85121324612, 21012.269419315639],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_8_30",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [342156.02320965327, 5152.8857747735319],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_10_1",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [196904.32839617843, 2017.2738475615356],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_10_2",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [200418.00145099591, 3046.671998596888],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_10_3",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [175337.83089302207, 13662.201663256828],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_10_4",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [318873.59055533574, 33074.403712014442],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_10_5",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [176609.25198334182, 14845.32532398398],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_10_6",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [218080.12536981553, 12726.447528659828],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_10_7",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [259482.77160947482, 20371.386037007866],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_10_8",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [185290.63014679556, 14418.585582403268],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_10_9",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [168716.80738186312, 12092.96818313812],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_10_10",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [195502.35259200635, 2737.3189639955381],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_10_11",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [264095.25252982078, 31150.651415485412],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_10_12",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [196841.7572565499, 16625.46749843729],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_10_13",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [314749.99202894454, 48410.87588000406],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_10_14",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [245876.03285783381, 20683.980262223711],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_10_15",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [218000.69495794628, 37489.347400698993],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_10_16",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [193799.45617803908, 16162.489101426681],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_10_17",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [184594.55974522774, 3079.7709183130755],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_10_18",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [201663.48316907557, 7555.718267077481],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_10_19",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [296524.44763537915, 18688.26401180388],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_10_20",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [171661.8765648457, 6913.1209409873472],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_10_21",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [197496.24368565524, 3533.8819745571877],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_10_22",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [177516.35972763991, 7639.3201344357176],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_10_23",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [191130.03167693672, 13912.905165832944],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_10_24",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [161492.06633124166, 7213.9892714780763],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_10_25",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [177748.81525241674, 16243.971952586409],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_10_26",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [205613.40223365431, 23215.425414920614],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_10_27",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [170244.57039842717, 8723.4668257511112],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_10_28",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [205810.07494299658, 28494.434799370363],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_10_29",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [408096.51924296952, 33995.273466512168],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_10_30",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [167583.32364746454, 10673.815903453924],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_12_2",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [129076508.15548269, 3588077.716994314],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_12_3",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [130438692.69792904, 2497255.2059440296],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_12_4",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [135541696.7113837, 2472004.3279899973],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_12_5",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [172525062.93766376, 3427574.3448561579],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_12_6",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [184978705.28377336, 11376019.587113511],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_12_7",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [210314108.30018026, 11243858.586013317],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_12_8",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [462103.30497295875, 34017.242254251221],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_12_9",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [450836.87316662591, 26066.442833039338],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_12_10",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [484583.26989152079, 21464.821191336559],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_12_11",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [717954.14647521055, 47683.6622821618],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_12_12",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [882311.19637439458, 46763.458678140239],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_12_13",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [934377.2955509075, 45375.902925874027],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_12_14",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [1026485.8810748674, 74748.352242759473],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_12_15",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [1059352.3801043965, 43870.38206561168],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_12_16",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [1425828.1132342133, 71037.516966000883],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_12_17",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [2841569.721653759, 1205969.453658791],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_12_18",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [2429058.4542936287, 123929.782774558],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_12_19",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [2432276.6641038689, 201660.63175080746],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_12_20",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [7679393.4374093134, 250521.34962458984],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_12_21",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [8941399.2399545237, 515437.23521816463],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_12_22",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [9927521.6727784388, 439022.17884378246],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_12_23",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [11153615.849831345, 586357.63461022184],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_12_24",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [12616062.635919372, 726787.36541881412],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_12_25",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [13991674.102317195, 811731.61721809488],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_12_26",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [14880597.646673074, 836674.92398922483],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_12_27",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [16309450.907569675, 1021211.1166239338],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_12_28",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [17571440.881501999, 1212960.2692308628],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_12_29",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [18366940.681352504, 1058589.7245876405],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_12_30",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [19412063.035068877, 991222.12766721111],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_14_1",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [20142157.318295743, 2300757.7291093748],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_14_2",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [20128314.086400211, 1656496.3310337253],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_14_3",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [20403664.793518882, 1306656.7518662342],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_14_4",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [22527370.726697698, 3746457.622784629],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_14_5",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [23783879.478458047, 2716443.0017363275],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_14_6",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [25220202.033580195, 2751709.2401019535],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_14_7",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [26647373.535266738, 1537549.3604149469],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_14_8",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [321935.89513884968, 45085.838180171886],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_14_9",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [364634.09644411784, 22644.220040133812],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_14_11",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [515337.00354269124, 35529.335292489341],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_14_12",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [597096.69515895005, 25277.091905713442],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_14_13",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [681937.73828053835, 31835.977402533324],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_14_14",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [732670.12056456937, 50781.832934593607],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_14_15",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [855032.13639361551, 68105.234343172313],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_14_16",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [1151244.7108183992, 69201.481971698129],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_14_17",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [2476032.4192435974, 1184798.114854895],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_14_18",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [2125860.3244891679, 116125.28740927017],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_14_19",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [2251417.3421712178, 149751.13891622241],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_14_20",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [7737171.8484117556, 1002618.936724636],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_14_21",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [8640391.9497427791, 608334.61324665626],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_14_22",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [10031535.924736654, 822109.1646307765],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_14_23",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [11191563.88343038, 1044931.9520852192],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_14_24",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [12217400.722307019, 935651.64396414941],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_14_25",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [13683997.733431324, 1189915.4818000514],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_14_26",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [14793053.276763335, 1241931.0123201977],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_14_27",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [15630747.529418785, 872027.84231475357],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_14_28",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [16995004.924931377, 1375013.9378940647],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_14_29",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [17965159.911960352, 1169437.4393399048],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_14_30",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [19337413.926953975, 1974125.2803721363],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_2_1",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [188860.41622854126, 19071.774081809945],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "0_0_25",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [40841897.635473393, 4735478.6359384656],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_2_6",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [10147.578608174572, 409.19547821757322],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_4_29",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [10693.092750673677, 272.30243589524673],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_6_16",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [9202.8734241619095, 559.75400323933764],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_6_29",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [9807.817268735751, 806.6456302620843],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "1_10_6",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [8829.7161324363533, 231.64545041113996],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "2_6_1",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [202698.52051180587, 22773.292149159563],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_2_1",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [162266.79527766787, 9412.5022897578365],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_2_10",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [550007.72994516359, 42562.517545900082],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_2_13",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [247381.46564406008, 26488.49396544612],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_6_11",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [343756.80306028231, 38075.760675746838],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_12_1",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [120030701.54187472, 1817885.9361702958],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "3_14_10",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [370992.56685573596, 31243.618482395654],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "4_0_1",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [0, 0],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "4_0_2",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [0, 0],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "4_0_3",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [0, 0],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "4_0_4",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [0, 0],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "4_0_5",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [0, 0],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "4_0_6",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [0, 0],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "4_0_7",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [0, 0],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "4_0_8",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [0, 0],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "4_0_9",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [0, 0],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "4_0_10",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [0, 0],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "4_0_11",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [0, 0],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "4_0_12",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [0, 0],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "4_0_13",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [0, 0],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "4_0_14",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [0, 0],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "4_0_15",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [0, 0],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "4_0_16",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [0, 0],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "4_0_17",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [0, 0],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "4_0_18",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [0, 0],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "4_0_19",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [0, 0],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "4_0_20",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [0, 0],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "4_0_21",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [0, 0],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "4_0_22",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [0, 0],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "4_0_23",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [0, 0],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "4_0_24",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [0, 0],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "4_0_25",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [0, 0],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "4_0_26",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [0, 0],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "4_0_27",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [0, 0],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "4_0_28",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [0, 0],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "4_0_29",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [0, 0],
+      "nombreFunDistr": "norm"
+    }
+  }, {
+    "funDistr_map": "4_0_30",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [0, 0],
+      "nombreFunDistr": "norm"
+    }
+  }]
+}

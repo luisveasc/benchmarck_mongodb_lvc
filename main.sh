@@ -11,7 +11,7 @@ rm test00.dat
 #rm test01.dat
 
 sudo killall mongod
-sleep 4
+sleep 3
 sudo rm -rf /data/db
 sudo mkdir /data/db
 
@@ -22,12 +22,12 @@ while read p; do
 
   echo "INICIA MONGODB-------------------------------------------------------"
   sudo mongod -v --logpath $archivo_log --dbpath /data/db  --fork
-  sleep 4
+  sleep 3
 
   python3.7 run_test_mongo.py "$p" >> $data_python
 
   sudo killall mongod
-  sleep 4
+  sleep 3
 
   #rescato info de log
   cat $archivo_log > $data_log"/"$p".dat"

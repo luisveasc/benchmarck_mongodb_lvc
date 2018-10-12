@@ -198,7 +198,7 @@ def update(jtest,conn,field,operation,valueToSearch):
 
     for i in range(jtest["AMOUNT_TEST"]):
         tini = time.time_ns()
-        col.update_many({field:{operation:VALUE}},{"$set":{"data":data}},multi=True)#,jtest["UPSERT
+        col.update_many({field:{operation:VALUE}},{"$set":{"data":data}})#,jtest["UPSERT
         tend = time.time_ns() - tini
         #print(">>>>>>>>>>>>>>>>> value:"+field+" - "+operation+" - "+str(VALUE) + " - " +rows.modified_count)
         print("%s" % (str( get_work_json(jtest,dbname,colname,i,tend,rows,_id) )))
@@ -304,4 +304,4 @@ except:
 tendns = time.time_ns() - tini
 tendms = tendns/1000000
 tends = tendns/1000000000
-print('{"ID" : %d , "STATUS" : "%s","total_time_ns" : %d , "total_time_ms" : %d ,"total_time_s" : %d }' % (jtest["ID"],status,tendns,tendms,tends))
+print("{'ID' : %d ,'STATUS' : '%s','total_time_ns' : %d , 'total_time_ms' : %d ,'total_time_s' : %d, 'function':'%s', 'idfunction' : '%s' }" % (jtest["ID"],status,tendns,tendms,tends,jtest["FUNCTION"],jtest["IDFUNCTION"]))
