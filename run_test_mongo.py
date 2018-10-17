@@ -140,15 +140,17 @@ def find(jtest,conn,field,operation,valueToSearch):
     colname = "COLLECTION1"
     conn.drop_database(dbname)
     db = conn[dbname]
-    col = db[colname]
 
     _id = insert_base(jtest,conn)
 
     for i in range(jtest["AMOUNT_TEST"]):
         tini = time.time_ns()
-        rows = col.find({field: {operation: valueToSearch}})
+        resp=db[colname].find({field: {operation: valueToSearch}})
         tend = time.time_ns() - tini
-        print("%s" % (str( get_work_json(jtest,dbname,colname,i,tend,rows.count(True),_id) )))
+        rows = 0
+        for x in resp:
+            rows=rows+1    
+        print("%s" % (str( get_work_json(jtest,dbname,colname,i,tend,rows,_id) )))
 
     return
 
@@ -183,7 +185,6 @@ def update(jtest,conn,field,operation,valueToSearch):
     colname = "COLLECTION1"
     conn.drop_database(dbname)
     db = conn[dbname]
-    col = db[colname]
     data = "b"*(jtest["BYTESIZE"]-jtest["SIZE_REST"])
     MB16 = 16000000
     ACUMULATE = 1
@@ -193,12 +194,11 @@ def update(jtest,conn,field,operation,valueToSearch):
     _id = insert_base(jtest,conn)
     VALUE=valueToSearch*ACUMULATE
 
-    resp = col.find({field: {operation: VALUE}})
-    rows = resp.count(True)
+    rows = db[colname].count_documents({field: {operation: VALUE}})
 
     for i in range(jtest["AMOUNT_TEST"]):
         tini = time.time_ns()
-        col.update_many({field:{operation:VALUE}},{"$set":{"data":data}})#,jtest["UPSERT
+        db[colname].update_many({field:{operation:VALUE}},{"$set":{"data":data}})#,jtest["UPSERT
         tend = time.time_ns() - tini
         #print(">>>>>>>>>>>>>>>>> value:"+field+" - "+operation+" - "+str(VALUE) + " - " +rows.modified_count)
         print("%s" % (str( get_work_json(jtest,dbname,colname,i,tend,rows,_id) )))
@@ -236,7 +236,6 @@ def delete(jtest,conn,field,operation,valueToSearch):
     colname = "COLLECTION1"
     conn.drop_database(dbname)
     db = conn[dbname]
-    col = db[colname]
     MB16 = 16000000
     ACUMULATE = 1
     if (jtest["MEMORY"]/MB16 < 1):
@@ -246,19 +245,19 @@ def delete(jtest,conn,field,operation,valueToSearch):
 
     VALUE=valueToSearch*ACUMULATE
     docs=[]
-    for doc in col.find({field: {operation: VALUE}}):
+    for doc in db[colname].find({field: {operation: VALUE}}):
         docs.append(doc)
     rows=len(docs)
 
     for i in range(jtest["AMOUNT_TEST"]):
 
         tini = time.time_ns()
-        resp = col.delete_many({field: {operation: VALUE}})
+        resp = db[colname].delete_many({field: {operation: VALUE}})
         tend = time.time_ns() - tini
         print("%s" % (str( get_work_json(jtest,dbname,colname,i,tend,rows,_id) )))
 
         if rows>0:
-            col.insert_many(docs)
+            db[colname].insert_many(docs)
 
     return
 
@@ -304,4 +303,4 @@ except:
 tendns = time.time_ns() - tini
 tendms = tendns/1000000
 tends = tendns/1000000000
-print("{'ID' : %d ,'STATUS' : '%s','total_time_ns' : %d , 'total_time_ms' : %d ,'total_time_s' : %d, 'function':'%s', 'idfunction' : '%s' }" % (jtest["ID"],status,tendns,tendms,tends,jtest["FUNCTION"],jtest["IDFUNCTION"]))
+print("{'ID' : %d ,'STATUS' : '%s','total_time_ns' : %d , 'total_time_ms' : %d ,'total_time_s' : %d, 'function':'%s', 'idfunction' : '%s', 'params':'%s' }" % (jtest["ID"],status,tendns,tendms,tends,jtest["FUNCTION"],jtest["IDFUNCTION"],test))

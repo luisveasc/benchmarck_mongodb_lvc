@@ -4,9 +4,9 @@
       "operation_mongo":["$eq","$gt","$gte","$lt","$lte"],
       "operation_itvl":[0,4],
       "instruction":["INSERT","SELECT","UPDATE","DELETE"],
+      "nameFields":["_id","cmp1","cmp2"],
       "instruction_itvl":[0,3],
       "size_rest":65,
-
       "trace_template":{
         "id": 0,
         "nombrePrueba": "",
@@ -18,24 +18,27 @@
           "nbr_cols":4,
           "db": "DB0",
           "fields": [],
-          "filters": null,
-          "fieldsToUpdate": null,
+          "filters": [],
+          "fieldsToUpdate": [],
           "multi": false,
           "upsert": false,
-          "sizebytes": 0,
-          "errorPk":-1
+          "sizebytes": 0
           },
         "time": 0,
         "execution": 0
         }
   },
 "trace_test":[
-  {"instruction":"Insert", "params": {"sizebyte":[100, 400], "amount": 40, "posIni":0}},
-  {"instruction":"Insert", "params": {"sizebyte":[700, 1000], "amount": 30 , "posIni":40 }},
-  {"instruction":"Insert", "params": {"sizebyte":[4000, 10000], "amount": 50, "posIni": 70 }},
-  {"instruction":"Insert", "params": {"sizebyte":[1000000, 12000000], "amount": 20, "posIni":120 }},
-  {"instruction":"Select", "params": { "value_itvl": [0, 200], "multi": true, "amount": 20 }},
-  {"instruction":"Select", "params": {"value_itvl": [30, 100] ,"multi": false, "amount": 30 }},
-  {"instruction":"Update", "params": {"value_itvl": [30, 100] ,"multi": false, "amount": 10 }}
+  {"instruction":"Insert", "params": {"sizebyte":[100, 400], "amount": 10, "action":0 }},
+  {"instruction":"Insert", "params": {"sizebyte":[100, 400], "amount": 40, "action":1 }},
+  {"instruction":"Insert", "params": {"sizebyte":[700, 1000], "amount": 30, "action":1 }},
+  {"instruction":"Insert", "params": {"sizebyte":[700, 1000], "amount": 10, "action":2 }},
+  {"instruction":"Insert", "params": {"sizebyte":[4000, 10000], "amount": 50, "action":1 }},
+  {"instruction":"Insert", "params": {"sizebyte":[400000, 700000], "amount": 20, "action":1}},
+  {"instruction":"Insert", "params": {"sizebyte":[1000000, 12000000], "amount": 20, "action":1}},
+  {"instruction":"Select", "params": { "value_itvl": [0, 50],  "amount": 20 }},
+  {"instruction":"Select", "params": {"value_itvl": [30, 100] ,"amount": 30 }},
+  {"instruction":"Update", "params": {"sizebyte":[100, 400],"value_itvl": [30, 100] ,"multi": false, "amount": 10 }}
+  {"instruction":"Delete", "params": {"value_itvl": [30, 100] ,"multi": false,"amount": 30 }},
   ]
 }

@@ -106,5 +106,5 @@ file.close()
 distro = get_json_distro(arrtime,IDFUNCTION)
 jout["TIMES"].append(distro)
 jout["TIMES"] = jout["TIMES"] + jcommunication
-jout["TIMES"] = correccion_del_ultimo_elemento_del_idfunction(jout["TIMES"])
+#jout["TIMES"] = correccion_del_ultimo_elemento_del_idfunction(jout["TIMES"])
 print(json.dumps(jout, ensure_ascii=False))

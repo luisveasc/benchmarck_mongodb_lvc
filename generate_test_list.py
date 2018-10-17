@@ -2,7 +2,18 @@ import sys
 import json
 
 arrlist=[
-    630
+69,
+97,
+217,
+337,
+577,
+697,
+817,
+937,
+1057,
+1177,
+1297,
+1477
     ]
 
 def busca_en_lista(arr, val):
@@ -12,7 +23,7 @@ def busca_en_lista(arr, val):
             flg=True
             break
     return flg
-
+ 
 
 
 filepath = sys.argv[1]
@@ -28,7 +39,7 @@ with open(filepath, 'r') as f:
             for CBYTESIZE, BYTESIZE in enumerate(data["bytesize"]):
                 MEMORY = BYTESIZE * AMOUNT_TEST
                 FUNCTION=TYPE+"_"+ACTION
-                IDFUNCTION=str(CTYPE)+"_"+str(CAACTION)+"_"+str(CBYTESIZE)
+                IDFUNCTION=str(CTYPE)+"_"+str(CAACTION)+"_"+str(CBYTESIZE+1)
 
                 if busca_en_lista(arrlist, ID) == True:
                     print("%d;%s;%d;%s;%d;%d;%d;%d;%d;%d;%d;%s;%s" % (ID,TYPE,CTYPE,ACTION,CAACTION,CBYTESIZE,BYTESIZE,MEMORY,AMOUNT_TEST,SIZE_REST,data["UPSERT"][0],FUNCTION,IDFUNCTION) )
