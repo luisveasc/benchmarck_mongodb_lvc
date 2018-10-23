@@ -4,7 +4,15 @@ import pymongo
 import time
 import random
 
-def Insert(params,config,conn, idFirstTest):
+def Drop_collection(params,config,conn,idtest,idFirstTest):
+    obj = config["trace_template"]
+    dbname = obj["QueryContent"]["db"]
+    colname = obj["QueryContent"]["collection"]
+    db = conn[dbname]
+    db[colname].drop()
+    return idFirstTest
+
+def Insert(params,config,conn,idtest,idFirstTest):
 
     obj = config["trace_template"]
     dbname = obj["QueryContent"]["db"]
@@ -38,6 +46,7 @@ def Insert(params,config,conn, idFirstTest):
             tend = time.time_ns() - tini
 
         obj["id"]=c+idFirstTest
+        obj["idtest"]=idtest 
         obj["nombrePrueba"]="Insert"
         obj["QueryContent"]["Instruction"]=0
         obj["QueryContent"]["sizebytes"]=bytesize
@@ -47,14 +56,14 @@ def Insert(params,config,conn, idFirstTest):
         obj["execution"]=tend
         obj["cantElemsColeccion"]=db[colname].count_documents({})
 
-        print(obj)
+        print(json.dumps(obj, ensure_ascii=False)+",")
         if params["action"]==1:
             _id=_id+1
 
     return (idFirstTest+amount)
 
 
-def Select(params,config,conn, idFirstTest):
+def Select(params,config,conn,idtest,idFirstTest):
     obj = config["trace_template"]
     dbname = obj["QueryContent"]["db"]
     colname = obj["QueryContent"]["collection"]
@@ -75,6 +84,7 @@ def Select(params,config,conn, idFirstTest):
             rows=rows+1
 
         obj["id"]=c+idFirstTest
+        obj["idtest"]=idtest 
         obj["nombrePrueba"]="Select"
         obj["QueryContent"]["Instruction"]=1
         obj["QueryContent"]["sizebytes"]=bytesize
@@ -85,11 +95,11 @@ def Select(params,config,conn, idFirstTest):
         obj["found_rows"] = rows
         obj["cantElemsColeccion"]=db[colname].count_documents({})
 
-        print(obj)
+        print(json.dumps(obj, ensure_ascii=False)+",")
 
     return (idFirstTest+amount)
 
-def Update(params,config,conn, idFirstTest):
+def Update(params,config,conn,idtest,idFirstTest):
     obj = config["trace_template"]
     dbname = obj["QueryContent"]["db"]
     colname = obj["QueryContent"]["collection"]
@@ -114,6 +124,7 @@ def Update(params,config,conn, idFirstTest):
         tend = time.time_ns() - tini
 
         obj["id"]=c+idFirstTest
+        obj["idtest"]=idtest
         obj["nombrePrueba"]="Update"
         obj["QueryContent"]["Instruction"]=2
         obj["QueryContent"]["sizebytes"]=bytesize
@@ -125,12 +136,12 @@ def Update(params,config,conn, idFirstTest):
         obj["found_rows"] = rows
         obj["cantElemsColeccion"]=db[colname].count_documents({})
 
-        print(obj)
+        print(json.dumps(obj, ensure_ascii=False)+",")
 
     return (idFirstTest+amount)
 
 
-def Delete(params,config,conn, idFirstTest):
+def Delete(params,config,conn,idtest,idFirstTest):
     obj = config["trace_template"]
     dbname = obj["QueryContent"]["db"]
     colname = obj["QueryContent"]["collection"]
@@ -152,6 +163,7 @@ def Delete(params,config,conn, idFirstTest):
         tend = time.time_ns() - tini
 
         obj["id"]=c+idFirstTest
+        obj["idtest"]=idtest
         obj["nombrePrueba"]="Delete"
         obj["QueryContent"]["Instruction"]=3
         obj["QueryContent"]["sizebytes"]=bytesize
@@ -161,7 +173,7 @@ def Delete(params,config,conn, idFirstTest):
         obj["found_rows"] = rows
         obj["cantElemsColeccion"]=db[colname].count_documents({})
 
-        print(obj)
+        print(json.dumps(obj, ensure_ascii=False)+",")
 
     return (idFirstTest+amount)
 
@@ -172,5 +184,7 @@ with open(fileinpath, 'r') as f:
     conn.drop_database(jdata["config"]["trace_template"]["QueryContent"]["db"])
 
     idFirstTest=0
-    for instructions in jdata["trace_test"]:
-        idFirstTest = eval(instructions["instruction"])(instructions["params"],jdata["config"],conn,idFirstTest)
+    print('{"traza":[')
+    for idtest,instructions in enumerate(jdata["trace_test"]):
+        idFirstTest = eval(instructions["instruction"])(instructions["params"],jdata["config"],conn,idtest,idFirstTest)
+    print("]}")

@@ -3,7 +3,20 @@ import json
 import numpy as np
 
 
-def get_json_distro(arrtime,IDFUNCTION):
+def get_json_distro(arrtime,arrrowscol,arrrowsfound,IDFUNCTION,FUNCTION):
+
+
+    n=len(arrtime)
+
+    if "_SIDX_" in FUNCTION:
+        for i in range(n):
+            arrtime[i]=arrtime[i]/arrrowscol[i]   
+
+    if "_FOUND_CIDX_" in FUNCTION:
+        for i in range(n):
+            arrtime[i]=arrtime[i]/arrrowsfound[i]  
+
+            
     mean=np.mean(arrtime)
     std=np.std(arrtime)
 
@@ -82,9 +95,13 @@ def correccion_del_ultimo_elemento_del_idfunction(jarr):
 pathinfile = sys.argv[1]
 file = open(pathinfile, "r")
 IDFUNCTION=""
+FUNCTION=""
 flgFirstLine=True
 arrtime=[]
+arrrowscol=[]
+arrrowsfound=[]
 distro={}
+
 for row in file:
 
     jrow = json.loads( row.replace("\n","").replace("\'","\"").replace("False","false").replace("True","true") )
@@ -92,18 +109,25 @@ for row in file:
 
         if(jrow["IDFUNCTION"]!=IDFUNCTION):
             if flgFirstLine==False:
-                distro = get_json_distro(arrtime,IDFUNCTION)
+                distro = get_json_distro(arrtime,arrrowscol,arrrowsfound,IDFUNCTION,FUNCTION)
                 jout["TIMES"].append(distro)
 
             flgFirstLine=False
             arrtime=[]
+            arrrowscol=[]
+            arrrowsfound=[]
+            
         else:
             arrtime.append(jrow["time_ns"])
+            arrrowscol.append(jrow["rows_col"])
+            arrrowsfound.append(jrow["rows"])
+
 
         IDFUNCTION=jrow["IDFUNCTION"]
+        FUNCTION=jrow["FUNCTION"]
 file.close()
 
-distro = get_json_distro(arrtime,IDFUNCTION)
+distro = get_json_distro(arrtime,arrrowscol,arrrowsfound,IDFUNCTION,FUNCTION)
 jout["TIMES"].append(distro)
 jout["TIMES"] = jout["TIMES"] + jcommunication
 #jout["TIMES"] = correccion_del_ultimo_elemento_del_idfunction(jout["TIMES"])
