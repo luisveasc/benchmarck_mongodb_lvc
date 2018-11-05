@@ -1,0 +1,52 @@
+{
+  "config":{
+      "operation":["EQUAL_THAN","GREATER_THAN","GREATER_EQUAL_THAN","LESSER_THAN","LESSER_EQUAL_THAN"],
+      "operation_mongo":["$eq","$gt","$gte","$lt","$lte"],
+      "operation_itvl":[0,4],
+      "instruction":["INSERT","SELECT","UPDATE","DELETE"],
+      "nameFields":["_id","cmp1","cmp2"],
+      "instruction_itvl":[0,3],
+      "size_rest":65,
+      "trace_template":{
+        "id": 0,
+        "nombrePrueba": "",
+        "cantElemsColeccion": 0,
+        "QueryContent": {
+          "Instruction": 0,
+          "idpgm_des": "MD_0_0",
+          "collection": "COLLECTION0",
+          "nbr_cols":4,
+          "db": "DB0",
+          "fields": [],
+          "filters": [],
+          "fieldsToUpdate": [],
+          "multi": false,
+          "upsert": false,
+          "sizebytes": 0
+          },
+        "time": 0,
+        "execution": 0
+        }
+  },
+"trace_test":[
+  {"instruction":"Drop_collection", "params": {}},
+  {"instruction":"Insert", "params": {"sizebyte":[100     , 10000   ], "amount": 20, "action":1 }},
+  {"instruction":"Insert", "params": {"sizebyte":[10000   , 100000  ], "amount": 20, "action":1 }},
+  {"instruction":"Insert", "params": {"sizebyte":[100000  , 1000000 ], "amount": 20, "action":1 }},
+  {"instruction":"Insert", "params": {"sizebyte":[1000000 , 2000000 ], "amount": 20, "action":1 }},
+  {"instruction":"Insert", "params": {"sizebyte":[2000000 , 5000000 ], "amount": 20, "action":1 }},
+  {"instruction":"Insert", "params": {"sizebyte":[3000000 , 4000000 ], "amount": 20, "action":1 }},
+  {"instruction":"Insert", "params": {"sizebyte":[4000000 , 5000000 ], "amount": 20, "action":1 }},
+  {"instruction":"Insert", "params": {"sizebyte":[5000000 , 8000000 ], "amount": 20, "action":1 }},
+  {"instruction":"Insert", "params": {"sizebyte":[6000000 , 7000000 ], "amount": 20, "action":1 }},
+  {"instruction":"Insert", "params": {"sizebyte":[7000000 , 8000000 ], "amount": 20, "action":1 }},
+  {"instruction":"Insert", "params": {"sizebyte":[8000000 , 9000000 ], "amount": 20, "action":1 }},
+  {"instruction":"Insert", "params": {"sizebyte":[9000000 , 10000000], "amount": 20, "action":1 }},
+  {"instruction":"Insert", "params": {"sizebyte":[10000000, 11000000], "amount": 20, "action":1 }},
+  {"instruction":"Insert", "params": {"sizebyte":[11000000, 12000000], "amount": 20, "action":1 }},
+  {"instruction":"Insert", "params": {"sizebyte":[12000000, 13000000], "amount": 20, "action":1 }},
+  {"instruction":"Insert", "params": {"sizebyte":[13000000, 14000000], "amount": 20, "action":1 }},
+  {"instruction":"Insert", "params": {"sizebyte":[14000000, 15000000], "amount": 20, "action":1 }},
+  {"instruction":"Insert", "params": {"sizebyte":[15000000, 16000000], "amount": 20, "action":1 }}
+  ]
+}
