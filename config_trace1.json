@@ -29,17 +29,6 @@
         }
   },
 "trace_test":[
-  {"instruction":"Insert", "params": {"sizebyte":[100, 400], "amount": 10, "action":0 }},
-  {"instruction":"Insert", "params": {"sizebyte":[100, 400], "amount": 100, "action":1 }},
-  {"instruction":"Insert", "params": {"sizebyte":[700, 1000], "amount": 100, "action":1 }},
-  {"instruction":"Insert", "params": {"sizebyte":[4000, 7000], "amount": 100, "action":1 }},
-  {"instruction":"Insert", "params": {"sizebyte":[7000, 10000], "amount": 100, "action":1 }},
-  {"instruction":"Insert", "params": {"sizebyte":[40000,70000], "amount": 100, "action":1}},
-  {"instruction":"Insert", "params": {"sizebyte":[70000,100000], "amount": 100, "action":1}},
-  {"instruction":"Insert", "params": {"sizebyte":[100, 400], "amount": 100, "action":2 }},
-  {"instruction":"Insert", "params": {"sizebyte":[400, 700], "amount": 100, "action":2 }},
-  {"instruction":"Insert", "params": {"sizebyte":[700, 1000], "amount": 100, "action":2 }},
-  {"instruction":"Insert", "params": {"sizebyte":[1000, 7000], "amount": 100, "action":2 }},
   {"instruction":"Drop_collection", "params": {}},
   {"instruction":"Insert", "params": {"sizebyte":[100, 400], "amount": 100, "action":1 }},
   {"instruction":"Select", "params": { "value_itvl": [0, 50],  "amount": 50 }},
@@ -60,7 +49,7 @@
   {"instruction":"Select", "params": { "value_itvl": [0, 50],  "amount": 50 }},
   {"instruction":"Update", "params": {"sizebyte":[10000, 40000],"value_itvl": [30, 100] ,"multi": false, "amount": 50 }},
   {"instruction":"Delete", "params": {"value_itvl": [30, 100] ,"multi": false,"amount": 50 }},
-   {"instruction":"Insert", "params": {"sizebyte":[70000, 100000], "amount": 100, "action":1 }},
+  {"instruction":"Insert", "params": {"sizebyte":[70000, 100000], "amount": 100, "action":1 }},
   {"instruction":"Select", "params": { "value_itvl": [0, 50],  "amount": 50 }},
   {"instruction":"Update", "params": {"sizebyte":[70000, 100000],"value_itvl": [30, 100] ,"multi": false, "amount": 50 }},
   {"instruction":"Delete", "params": {"value_itvl": [30, 100] ,"multi": false,"amount": 50 }}

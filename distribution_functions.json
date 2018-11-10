@@ -429,6 +429,13 @@
       "nombreFunDistr": "norm"
     }
   }, {
+    "funDistr_map": "0_2_3",
+    "funDistr": {
+      "idFunDistr": 3,
+      "params": [231852.29733481578, 13547.657484187444],
+      "nombreFunDistr": "norm"
+    }
+  },  {
     "funDistr_map": "0_2_4",
     "funDistr": {
       "idFunDistr": 3,

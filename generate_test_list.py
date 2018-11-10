@@ -23,7 +23,7 @@ def busca_en_lista(arr, val):
             flg=True
             break
     return flg
- 
+
 
 
 filepath = sys.argv[1]
@@ -41,8 +41,8 @@ with open(filepath, 'r') as f:
                 FUNCTION=TYPE+"_"+ACTION
                 IDFUNCTION=str(CTYPE)+"_"+str(CAACTION)+"_"+str(CBYTESIZE+1)
 
-                if busca_en_lista(arrlist, ID) == True:
-                    print("%d;%s;%d;%s;%d;%d;%d;%d;%d;%d;%d;%s;%s" % (ID,TYPE,CTYPE,ACTION,CAACTION,CBYTESIZE,BYTESIZE,MEMORY,AMOUNT_TEST,SIZE_REST,data["UPSERT"][0],FUNCTION,IDFUNCTION) )
+                #if busca_en_lista(arrlist, ID) == True:
+                print("%d;%s;%d;%s;%d;%d;%d;%d;%d;%d;%d;%s;%s" % (ID,TYPE,CTYPE,ACTION,CAACTION,CBYTESIZE,BYTESIZE,MEMORY,AMOUNT_TEST,SIZE_REST,data["UPSERT"][0],FUNCTION,IDFUNCTION) )
                 ID=ID+1
 
                 #if TYPE=="UPDATE":
