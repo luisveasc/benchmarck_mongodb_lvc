@@ -3,6 +3,7 @@ import json
 import pymongo
 import time
 import random
+import copy
 
 def Drop_collection(params,config,conn,idtest,idFirstTest):
     obj = config["trace_template"]
@@ -36,7 +37,7 @@ def Insert(params,config,conn,idtest,idFirstTest):
         if (params["action"]==0) or (params["action"]==1):
             if params["action"]==0:
                 colnameAux = colnameAux.replace("0",str(c))
-                
+
             tini = time.time_ns()
             db[colnameAux].insert_many(docs)
             tend = time.time_ns() - tini
@@ -79,8 +80,8 @@ def Select(params,config,conn,idtest,idFirstTest):
     bytesize = 100
 
     for c in range(amount):
-        idField = random.randint(0,int(obj["QueryContent"]["nbr_cols"])-2)
-        op  = random.randint(config["operation_itvl"][0],config["operation_itvl"][1])
+        idField = random.randint(params["field_itvl"][0],params["field_itvl"][1])
+        op  = random.randint(params["operation_itvl"][0],params["operation_itvl"][1])
         val = random.randint(params["value_itvl"][0],params["value_itvl"][1])
 
         rows = db[colname].count_documents({config["nameFields"][idField]: {config["operation_mongo"][op]: val}})
@@ -89,9 +90,9 @@ def Select(params,config,conn,idtest,idFirstTest):
             tini = time.time_ns()
             resp = db[colname].find({config["nameFields"][idField]: {config["operation_mongo"][op]: val}})
             tend = time.time_ns() - tini
-        else:    
+        else:
             if rows > 0:
-                rows = 1               
+                rows = 1
             tini = time.time_ns()
             resp = db[colname].find_one({config["nameFields"][idField]: {config["operation_mongo"][op]: val}})
             tend = time.time_ns() - tini
@@ -123,8 +124,8 @@ def Update(params,config,conn,idtest,idFirstTest):
 
     for c in range(amount):
 
-        idField = random.randint(0,int(obj["QueryContent"]["nbr_cols"])-2)
-        op = random.randint(config["operation_itvl"][0],config["operation_itvl"][1])
+        idField = random.randint(params["field_itvl"][0],params["field_itvl"][1])
+        op  = random.randint(params["operation_itvl"][0],params["operation_itvl"][1])
         val = random.randint(params["value_itvl"][0],params["value_itvl"][1])
 
         bytesize = random.randint(params["sizebyte"][0],params["sizebyte"][1])
@@ -138,10 +139,10 @@ def Update(params,config,conn,idtest,idFirstTest):
             tend = time.time_ns() - tini
         else:
             if rows > 0:
-                rows = 1            
+                rows = 1
             tini = time.time_ns()
             db[colname].update_one({config["nameFields"][idField]: {config["operation_mongo"][op]: val}},{"$set":{"data":data}})#,jtest["UPSERT
-            tend = time.time_ns() - tini    
+            tend = time.time_ns() - tini
 
 
         obj["id"]=c+idFirstTest
@@ -172,8 +173,8 @@ def Delete(params,config,conn,idtest,idFirstTest):
     bytesize = 100
 
     for c in range(amount):
-        idField = random.randint(0,int(obj["QueryContent"]["nbr_cols"])-2)
-        op = random.randint(config["operation_itvl"][0],config["operation_itvl"][1])
+        idField = random.randint(params["field_itvl"][0],params["field_itvl"][1])
+        op  = random.randint(params["operation_itvl"][0],params["operation_itvl"][1])
         val = random.randint(params["value_itvl"][0],params["value_itvl"][1])
 
         rows = db[colname].count_documents({config["nameFields"][idField]: {config["operation_mongo"][op]: val}})
@@ -189,8 +190,8 @@ def Delete(params,config,conn,idtest,idFirstTest):
             tini = time.time_ns()
             resp = db[colname].delete_one({config["nameFields"][idField]: {config["operation_mongo"][op]: val}})
             tend = time.time_ns() - tini
-         
-            
+
+
 
         obj["id"]=c+idFirstTest
         obj["idtest"]=idtest
@@ -218,5 +219,6 @@ with open(fileinpath, 'r') as f:
     idFirstTest=0
     print('{"traza":[')
     for idtest,instructions in enumerate(jdata["trace_test"]):
-        idFirstTest = eval(instructions["instruction"])(instructions["params"],jdata["config"],conn,idtest,idFirstTest)
+        auxConfig=copy.deepcopy(jdata["config"])
+        idFirstTest = eval(instructions["instruction"])(instructions["params"],auxConfig,conn,idtest,idFirstTest)
     print("]}")

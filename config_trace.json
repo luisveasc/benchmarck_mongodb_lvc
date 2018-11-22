@@ -4,7 +4,7 @@
       "operation_mongo":["$eq","$gt","$gte","$lt","$lte"],
       "operation_itvl":[0,4],
       "instruction":["INSERT","SELECT","UPDATE","DELETE"],
-      "nameFields":["_id","cmp1","cmp2"],
+      "nameFields":["_id","cmp1","cmp2","cmp3"],
       "instruction_itvl":[0,3],
       "size_rest":65,
       "trace_template":{
@@ -30,7 +30,18 @@
   },
 "trace_test":[
   {"instruction":"Drop_collection", "params": {}},
-  {"instruction":"Insert", "params": {"sizebyte":[100, 400], "amount": 1000, "action":1 }},
-  {"instruction":"Update", "params": { "sizebyte":[100, 400], "value_itvl": [0, 100],  "amount": 50 , "multi" : true }}
+  {"instruction":"Insert", "params": {"sizebyte":[100, 4000000], "amount": 200, "action":1 }},
+  {"instruction":"Delete", "params": {"value_itvl":[0, 150],"operation_itvl":[0,0],"field_itvl":[1,1],"amount":50,"multi":false }},
+  {"instruction":"Drop_collection", "params": {}},
+  {"instruction":"Insert", "params": {"sizebyte":[4000000, 8000000], "amount": 200, "action":1 }},
+  {"instruction":"Delete", "params": {"value_itvl":[0, 150],"operation_itvl":[0,0],"field_itvl":[1,1],"amount":50,"multi":false }},
+  {"instruction":"Drop_collection", "params": {}},
+  {"instruction":"Insert", "params": {"sizebyte":[8000000, 12000000], "amount": 200, "action":1 }},
+  {"instruction":"Delete", "params": {"value_itvl":[0, 150],"operation_itvl":[0,0],"field_itvl":[1,1],"amount":50,"multi":false }},
+  {"instruction":"Drop_collection", "params": {}},
+  {"instruction":"Insert", "params": {"sizebyte":[12000000, 16000000], "amount": 200, "action":1 }},
+  {"instruction":"Delete", "params": {"value_itvl":[0, 150],"operation_itvl":[0,0],"field_itvl":[1,1],"amount":50,"multi":false }}
   ]
 }
+
+

@@ -5,18 +5,18 @@ import numpy as np
 
 def get_json_distro(arrtime,arrrowscol,arrrowsfound,IDFUNCTION,FUNCTION):
 
-
+    """
     n=len(arrtime)
 
     if "_SIDX_" in FUNCTION:
         for i in range(n):
-            arrtime[i]=arrtime[i]/arrrowscol[i]   
+            arrtime[i]=arrtime[i]/arrrowscol[i]
 
     if "_FOUND_CIDX_" in FUNCTION:
         for i in range(n):
-            arrtime[i]=arrtime[i]/arrrowsfound[i]  
+            arrtime[i]=arrtime[i]/arrrowsfound[i]
 
-            
+    """
     mean=np.mean(arrtime)
     std=np.std(arrtime)
 
@@ -46,7 +46,7 @@ jout =  {"FUNCTIONS_DISTRIBUTION": ["cauchy", "chi2", "expon", "norm", "uniform"
         "TIMES":[]
         }
 
-jcommunication = [ {     "funDistr_map": "4_0_0",     "funDistr": {       "idFunDistr": 3, "params": [0,0],       "nombreFunDistr": "norm"
+jcommunication = [ {     "funDistr_map": "4_0_30",     "funDistr": {       "idFunDistr": 3, "params": [0,0],       "nombreFunDistr": "norm"
 }   } , { "funDistr_map": "4_0_1",     "funDistr": {       "idFunDistr": 3, "params": [0,0], "nombreFunDistr": "norm"
 }   }   , { "funDistr_map": "4_0_2", "funDistr": {       "idFunDistr": 3, "params": [0,0], "nombreFunDistr": "norm" }
 } , { "funDistr_map": "4_0_3",     "funDistr": {       "idFunDistr": 3, "params": [0,0],       "nombreFunDistr": "norm"
@@ -116,7 +116,7 @@ for row in file:
             arrtime=[]
             arrrowscol=[]
             arrrowsfound=[]
-            
+
         else:
             arrtime.append(jrow["time_ns"])
             arrrowscol.append(jrow["rows_col"])
