@@ -1,13 +1,14 @@
+
 #!/bin/bash
 archivo_log="/data/db/logdb.log"
 data_log="data_log/"
 data_python="data_python/data.dat"
 
 python generate_test_list.py config.json > test00.dat
-cat test00.dat | grep  0_0_ > test01.dat
+#cat test00.dat | grep  0_0_ > test01.dat
 #cat test01.dat | grep DELETE > test00.dat
 
-rm test00.dat
+#rm test00.dat
 #rm test01.dat
 
 sudo killall mongod
@@ -35,4 +36,4 @@ while read p; do
   sudo rm -rf /data/db
   sudo mkdir /data/db
 
-done < test01.dat
+done < test00.dat
